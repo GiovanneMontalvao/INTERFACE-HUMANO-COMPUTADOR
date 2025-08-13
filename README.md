@@ -2,11 +2,12 @@
 
 Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interface Humano-Computador (CC8122) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](https://github.com/fagnerpimentel).
 
-Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Título do TCC** sob orientação do Professor **Nome do Orientador** e desenvolvido pelos seguintes alunos:
+Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **DETECÇÃO DE MACACOS-PREGO POR VISÃO COMPUTACIONAL A PARTIR DE VÍDEOS EM AMBIENTES NÃO-CONTROLADOS** sob orientação do Professor **Rafael Testa** e desenvolvido pelos seguintes alunos:
 
-- Nome Componente 1
-- Nome Componente 2
-- Nome Componente 3
+- Diego Meira Jardim da Silva
+- Giovanne Delghingaro Montalvão
+- Lucas Antunes Sampaio
+- Rômulo Carneiro de Oliveira Canavesso
 
 ## Resumo
 
