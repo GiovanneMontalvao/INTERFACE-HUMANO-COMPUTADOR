@@ -15,18 +15,17 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 
 ## Introdução
  
-- Apresente o propósito do produto ou serviço e quais são os principais benefícios que ele oferece aos usuários.
-- Identifique os problemas ou necessidades que o produto ou serviço resolve ou satisfaz.
-- Liste as características e funcionalidades do seu produto ou serviço de forma detalhada.
-- Liste as tecnologias e ferramentas computacionais que pretendem usar neste projeto (TCC).
-- Apresente o contexto de uso dessa aplicação. (“Usuários, tarefas, equipamentos (hardware, software e materiais) e o ambiente físico e social no qual um produto é usado.”)
+- *Apresente o propósito do produto ou serviço e quais são os principais benefícios que ele oferece aos usuários.
+- *Identifique os problemas ou necessidades que o produto ou serviço resolve ou satisfaz.
+- *Liste as características e funcionalidades do seu produto ou serviço de forma detalhada.
+- Python, YOLOv8.
+- *Apresente o contexto de uso dessa aplicação. (“Usuários, tarefas, equipamentos (hardware, software e materiais) e o ambiente físico e social no qual um produto é usado.”)
 
 ## Publico Alvo
+- Pesquisadores e ONGs.
+- *
 
-- Determine qual o grupo específico de pessoas ou organizações para as quais este produto ou serviço é direcionado.
-- Descreva as caracteristicas demográficas, comportamentais, psicográficas ou geográficas deste público alvo que o torna mais propenso a se interessar pelo que está sendo oferecido neste projeto ou serviço.
-
-## Análise de concorrência
+## *Análise de concorrência
 
 1. Identifique os principais concorrentes ou softwares mais utilizados pelo seu público-alvo.
 2. Colete informações sobre os concorrentes selecionados.
