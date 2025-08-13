@@ -11,7 +11,7 @@ Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **DET
 
 ## Resumo
 
-Apresente uma breve descrição da sua aplicação ou produto.
+Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para classificar a presença de macacos-prego (Sapajus spp.) em vídeos de ambientes não controlados. Além de criar uma interface gráfica para os usuários poderem escolher os vídeos que querem que sejam analisados.
 
 ## Introdução
  
