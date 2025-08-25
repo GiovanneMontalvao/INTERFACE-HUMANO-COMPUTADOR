@@ -40,9 +40,21 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 - Descreva as personas que irão interagir com a aplicação ou produto. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
 - Quais informações sobre o usuário o serviço ou poduto deve guardar?
 
-  - Persona primaira ...
-  - Persona secundária ...
-  - Outras personas ...
+  #### Personas Primárias
+
+   - Carlos Mendes, pesquisador – “preciso otimizar meu tempo”
+        - Carlos é pesquisador de biologia em uma universidade pública. Trabalha com armadilhas fotográficas há cinco anos e acumula centenas de horas de vídeo para análise. Busca uma ferramenta que agilize a detecção de macacos-prego, reduzindo o tempo gasto em tarefas manuais repetitivas.
+   
+   - Ana Ribeiro, analista de ONG – “preciso de algo simples e confiável”
+        - Ana atua em uma ONG ambiental. Passa grande parte do tempo em campo, coletando dados e organizando vídeos de fauna. Como não possui conhecimentos avançados em visão computacional, valoriza sistemas intuitivos e fáceis de usar, que funcionem mesmo em equipamentos mais simples.
+   
+   - João Roberto, estudante de pós-graduação – “quero aprender e produzir resultados”
+        - João está no mestrado em ecologia e usa armadilhas fotográficas em sua pesquisa. Ele procura uma ferramenta que não apenas auxilie na detecção dos animais, mas que também seja acessível para estudantes, permitindo explorar métodos modernos de inteligência artificial sem depender de softwares caros.
+
+  #### Personas Secundárias
+   
+   - Pedro Almeida, voluntário ambiental – “quero ajudar mesmo sem ser especialista”
+        - Pedro participa de projetos de conservação como voluntário. Embora não tenha formação em biologia, ajuda na coleta de vídeos em campo e busca ferramentas fáceis para colaborar com a equipe técnica.
 
 ### Mapa de empatia
 
