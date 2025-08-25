@@ -6,8 +6,6 @@ Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **DET
 
 - Diego Meira Jardim da Silva
 - Giovanne Delghingaro Montalvão
-- Lucas Antunes Sampaio
-- Rômulo Carneiro de Oliveira Canavesso
 
 ## Resumo
 
