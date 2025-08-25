@@ -55,6 +55,9 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
    
    - Pedro Almeida, voluntário ambiental – “quero ajudar mesmo sem ser especialista”
         - Pedro participa de projetos de conservação como voluntário. Embora não tenha formação em biologia, ajuda na coleta de vídeos em campo e busca ferramentas fáceis para colaborar com a equipe técnica.
+    
+   - Fernanda Costa, professora universitária – “quero apoiar a pesquisa dos alunos”
+        - Fernanda leciona ecologia em uma universidade. Seu objetivo é usar o sistema como apoio didático em projetos de iniciação científica, permitindo que estudantes aprendam e pratiquem análise de fauna com tecnologia atual.
 
 ### Mapa de empatia
 
