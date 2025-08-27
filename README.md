@@ -42,35 +42,44 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 
   #### Personas Primárias
 
-   - Carlos Mendes, pesquisador – “preciso otimizar meu tempo”
-        - Carlos é pesquisador de biologia em uma universidade pública. Trabalha com armadilhas fotográficas há cinco anos e acumula centenas de horas de vídeo para análise. Busca uma ferramenta que agilize a detecção de macacos-prego, reduzindo o tempo gasto em tarefas manuais repetitivas.
+   - Mariana Alves, 42 anos, pesquisadora em Biologia da Conservação – "Preciso de precisão e rapidez para não perder tempo com triagens manuais"
+        - Mariana é pesquisadora em um instituto na Amazônia e coordena projetos de monitoramento da fauna em áreas protegidas. Ela lida com milhares de vídeos de armadilhas fotográficas e precisa de resultados confiáveis para publicar artigos científicos e apoiar políticas de conservação. Busca reduzir o tempo gasto em análises manuais e ter relatórios padronizados para embasar decisões.
    
-   - Ana Ribeiro, analista de ONG – “preciso de algo simples e confiável”
-        - Ana atua em uma ONG ambiental. Passa grande parte do tempo em campo, coletando dados e organizando vídeos de fauna. Como não possui conhecimentos avançados em visão computacional, valoriza sistemas intuitivos e fáceis de usar, que funcionem mesmo em equipamentos mais simples.
+   - Lucas Ferreira, 28 anos, analista de ONG Ambiental – "Quanto mais acessível a tecnologia, mais impacto podemos gerar em campo"
+        - Lucas trabalha em uma ONG que realiza monitoramento participativo de fauna junto a comunidades locais. Muitas vezes atua em áreas sem internet, o que exige ferramentas que funcionem offline. Precisa de uma solução simples e acessível para rodar em notebooks comuns, sem depender de grandes servidores. Valoriza tecnologias que aproximam ciência e comunidades em prol da conservação.
    
-   - João Roberto, estudante de pós-graduação – “quero aprender e produzir resultados”
-        - João está no mestrado em ecologia e usa armadilhas fotográficas em sua pesquisa. Ele procura uma ferramenta que não apenas auxilie na detecção dos animais, mas que também seja acessível para estudantes, permitindo explorar métodos modernos de inteligência artificial sem depender de softwares caros.
+   - Camila Rodrigues, 31 anos, mestranda em Ecologia – "Preciso de uma interface clara para testar hipóteses no meu projeto"
+        - Camila desenvolve dissertação sobre comportamento de primatas em fragmentos florestais. Ela deseja utilizar vídeos de armadilhas fotográficas para extrair informações quantitativas sobre presença e comportamento dos macacos-prego. Precisa de uma interface gráfica intuitiva, que permita carregar vídeos, ajustar níveis de confiança e exportar dados de forma organizada.
 
   #### Personas Secundárias
    
-   - Pedro Almeida, voluntário ambiental – “quero ajudar mesmo sem ser especialista”
-        - Pedro participa de projetos de conservação como voluntário. Embora não tenha formação em biologia, ajuda na coleta de vídeos em campo e busca ferramentas fáceis para colaborar com a equipe técnica.
+   - Pedro Almeida, 27 anos, voluntário ambiental – "Quero ajudar mesmo sem ser especialista"
+        - Pedro participa de projetos de conservação como voluntário. Embora não tenha formação em biologia, auxilia na coleta de vídeos em campo e deseja colaborar com a equipe técnica. Para isso, busca ferramentas fáceis de usar, que não exijam conhecimentos avançados, mas que permitam contribuir de forma efetiva no monitoramento da fauna.
     
-   - Fernanda Costa, professora universitária – “quero apoiar a pesquisa dos alunos”
-        - Fernanda leciona ecologia em uma universidade. Seu objetivo é usar o sistema como apoio didático em projetos de iniciação científica, permitindo que estudantes aprendam e pratiquem análise de fauna com tecnologia atual.
+   - João Pedro Martins, 23 anos, estudante de Ciência da Computação desenvolvendo seu Trabalho de Conclusão de Curso – "Quero aplicar IA em um problema real de conservação"
+        - João Pedro está no último semestre de Ciência da Computação e decidiu aplicar visão computacional em um tema de impacto social e ambiental. Ele busca usar o sistema como base para aprender mais sobre aprendizado profundo e aplicar modelos como YOLO em problemas reais. Tem bom domínio de programação em Python, mas pouca experiência prática com ecologia e comportamento animal.
 
 ### Mapa de empatia
 
 ![Mapa de empatia](empatia.png)
 
-- Determine o mapa de empatia[^1] de pelo menos uma persona primária e uma sercundária.
-  - O que o usuário vê: aqui estamos falando do ambiente visual em que o usuário se encontra. Ou seja, o que ele efetivamente enxerga, as pessoas e objetos que estão ao seu redor. Isso ajuda a entender o contexto em que o usuário está inserido e as influências visuais que está recebendo.
-  - O que o usuário ouve: neste quadrante, buscamos entender o que o usuário está ouvindo, os sons que o cercam e como eles influenciam suas ações.
-  - O que o usuário diz e faz: aqui consideramos ações e comportamentos que o usuário apresenta durante sua interação com serviço ou poduto.
-  - O que o usuário pensa e sente: neste quadrante, buscamos entender os pensamentos, sentimentos, emoções e percepções que o usuário tem em relação ao serviço ou poduto. Quais expectativas o usuário cria sobre o serviço ou poduto?
-  Que tipo de serviço ou poduto mais agrada essa persona?
-  - Dores: quando falamos sobre dores do usuário, estamos fazendo referência a quaisquer obstáculos, necessidades ou frustrações que o usuário possa experimentar ao tentar realizar uma tarefa ou alcançar um objetivo. Isso inclui, por exemplo, problemas de usabilidade, dificuldades de acesso ou outros desafios que podem afetar a experiência do usuário.
-  - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o serviço ou poduto. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o serviço ou poduto satisfaz?
+## Persona Primária
+- Mariana Alves, 42 anos
+  - O que o usuário vê: Laboratórios, armadilhas fotográficas, grandes volumes de vídeos no computador. Outros pesquisadores e alunos trabalhando em análises manuais demoradas. Relatórios científicos que dependem de muito esforço humano.
+  - O que o usuário ouve: Conversas de colegas sobre a dificuldade em lidar com tantos dados. Demandas de instituições de conservação por relatórios rápidos e confiáveis. Críticas sobre erros ou atrasos na análise manual.
+  - O que o usuário diz e faz: Reclama do tempo perdido em triagens manuais. Procura constantemente novas ferramentas para automatizar processos. Orienta alunos e cobra produtividade científica.
+  - O que o usuário pensa e sente: Sente frustração com a lentidão do processo manual. Tem expectativa de que um sistema de IA traga precisão e economia de tempo. Acredita que a tecnologia pode acelerar avanços em conservação.
+  - Dores: Volume excessivo de vídeos para analisar. Dificuldade em encontrar ferramentas adaptadas ao contexto de florestas tropicais. Pressão por resultados científicos rápidos.
+  - Ganhos: Economia de tempo na análise. Relatórios padronizados e confiáveis. Apoio direto às suas pesquisas e publicações.
+ 
+ ## Persona Secundária
+- João Pedro Martins, 23 anos
+  - O que o usuário vê: Ambiente acadêmico de laboratório de computação. Professores, colegas e ferramentas de visão computacional como YOLO, PyTorch e TensorFlow. Exemplos de TCCs anteriores com temas aplicados.
+  - O que o usuário ouve: Professores incentivando a aplicar IA em problemas reais. Colegas comentando sobre as dificuldades em conseguir datasets confiáveis. Discussões sobre prazos e banca de TCC.
+  - O que o usuário diz e faz: Fala sobre a vontade de aplicar IA em conservação ambiental. Pesquisa artigos, códigos e datasets para treinar modelos. Passa horas testando scripts e ajustando hiperparâmetros.
+  - O que o usuário pensa e sente: Sente ansiedade por causa dos prazos do TCC. Tem expectativa de que seu projeto seja útil de verdade e não só teórico. Se sente motivado quando consegue resultados que funcionam em dados reais.
+  - Dores: Dificuldade em conseguir vídeos anotados para treinar modelos. Falta de experiência em ecologia para interpretar resultados. Limitação de hardware para treinar redes neurais.
+  - Ganhos: Aprender na prática sobre IA aplicada a problemas reais. Um TCC relevante, com impacto positivo no meio ambiente. Possibilidade de abrir portas para pesquisas futuras ou empregos na área.
 
 ## Contexto de uso
 
