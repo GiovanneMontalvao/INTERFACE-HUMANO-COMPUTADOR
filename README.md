@@ -84,16 +84,20 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 ## Contexto de uso
 
 - Descreva o ambiente em que o serviço ou poduto deve ser utilizado.
+  - Laboratórios de pesquisa com computadores para análise de vídeos e relatórios.
 - Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
+  - Social: Colaboração entre biólogos, cientistas da computação, estudantes e voluntários.
+  - Econômico: Recursos financeiros limitados, necessidade de soluções de baixo custo.
+  - Cultural: Conservação da biodiversidade e ao uso de tecnologia pra melhorar o monitoramento da fauna, valorizando tanto o conhecimento científico quanto o local.
 - Quais informações sobre o ambiente, o serviço ou poduto deve guardar antes de iniciar a interação?
+  - Os vídeos que serão analisados.
 - O que normalmente deve estar acontecendo com o ambiente quando o usuário interagir com o serviço ou poduto?
+  - Pesquisadores ou técnicos acabam de voltar do campo com os vídeos e precisam analisá‑los.
+
 
 ## Jornada do usuário
-
-- Criar uma narrativa para o o seu serviço ou poduto com o usuário.
-- Determine o que o usuário realiza desde a primeira até o última interação com o serviço ou poduto.
-  - Descreva o que acontece ou pode acontecer passo a passo
-  - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina?
+ 
+- Mariana Alves recebe os vídeos das armadilhas fotográficas do campo e, quando chega no laboratório, abre o programa pra começar a análise. Em seguida, o sistema inicia a separar os trechos onde aparece um macaco‑prego, mesmo sem internet. Enquanto o programa roda, ela acompanha as detecções na tela em tempo real. Quando termina, o sistema mostra um painel com os resultados e gera relatórios prontos pra usar.
 
 
 <!--
