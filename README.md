@@ -2,7 +2,7 @@
 
 Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interface Humano-Computador (CC8122) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](https://github.com/fagnerpimentel).
 
-Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **DETECÇÃO DE MACACOS-PREGO POR VISÃO COMPUTACIONAL A PARTIR DE VÍDEOS EM AMBIENTES NÃO-CONTROLADOS** sob orientação do Professor **Rafael Testa** e desenvolvido pelos seguintes alunos:
+Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **DETECÇÃO DE MACACOS-PREGO POR VISÃO COMPUTACIONAL A PARTIR DE VÍDEOS EM AMBIENTES NÃO-CONTROLADOS** sob orientação do Professor **Reinaldo Bianchi** e desenvolvido pelos seguintes alunos:
 
 - Diego Meira Jardim da Silva
 - Giovanne Delghingaro Montalvão
@@ -98,6 +98,11 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 ## Jornada do usuário
  
 - Mariana Alves recebe os vídeos das armadilhas fotográficas do campo e, quando chega no laboratório, abre o programa pra começar a análise. Em seguida, o sistema inicia a separar os trechos onde aparece um macaco‑prego, mesmo sem internet. Enquanto o programa roda, ela acompanha as detecções na tela em tempo real. Quando termina, o sistema mostra um painel com os resultados e gera relatórios prontos pra usar.
+
+## Qualidade de uso
+
+
+## Ambiente e contexto
 
 
 <!--
