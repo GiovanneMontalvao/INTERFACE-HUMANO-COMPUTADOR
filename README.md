@@ -101,6 +101,10 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 
 ## Qualidade de uso
 
+- Usabilidade:
+  - A usabilidade do sistema é fundamental, pois ele deve permitir que pesquisadores e voluntários analisem os vídeos de forma simples, rápida e eficiente, mesmo sem conhecimento técnico avançado. O produto facilita o aprendizado, oferece resultados claros em tempo real e garante a geração de relatórios prontos para uso, reduzindo o esforço necessário e aumentando a satisfação do usuário.
+- Experiência de usuário:
+  - A experiência do usuário é marcada pela praticidade e confiança, já que o sistema analisa automaticamente os vídeos e apresenta os resultados de forma clara e visual. O usuário acompanha as detecções em tempo real e recebe relatórios prontos, o que gera satisfação, reduz esforço e agiliza o trabalho de pesquisa.
 
 ## Ambiente e contexto
 
