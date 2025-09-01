@@ -52,9 +52,6 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
         - Camila desenvolve dissertação sobre comportamento de primatas em fragmentos florestais. Ela deseja utilizar vídeos de armadilhas fotográficas para extrair informações quantitativas sobre presença e comportamento dos macacos-prego. Precisa de uma interface gráfica intuitiva, que permita carregar vídeos, ajustar níveis de confiança e exportar dados de forma organizada.
 
   #### Personas Secundárias
-   
-   - Pedro Almeida, 27 anos, voluntário ambiental – "Quero ajudar mesmo sem ser especialista"
-        - Pedro participa de projetos de conservação como voluntário. Embora não tenha formação em biologia, auxilia na coleta de vídeos em campo e deseja colaborar com a equipe técnica. Para isso, busca ferramentas fáceis de usar, que não exijam conhecimentos avançados, mas que permitam contribuir de forma efetiva no monitoramento da fauna.
     
    - João Pedro Martins, 23 anos, estudante de Ciência da Computação desenvolvendo seu Trabalho de Conclusão de Curso – "Quero aplicar IA em um problema real de conservação"
         - João Pedro está no último semestre de Ciência da Computação e decidiu aplicar visão computacional em um tema de impacto social e ambiental. Ele busca usar o sistema como base para aprender mais sobre aprendizado profundo e aplicar modelos como YOLO em problemas reais. Tem bom domínio de programação em Python, mas pouca experiência prática com ecologia e comportamento animal.
@@ -105,9 +102,20 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
   - A usabilidade do sistema é fundamental, pois ele deve permitir que pesquisadores e voluntários analisem os vídeos de forma simples, rápida e eficiente, mesmo sem conhecimento técnico avançado. O produto facilita o aprendizado, oferece resultados claros em tempo real e garante a geração de relatórios prontos para uso, reduzindo o esforço necessário e aumentando a satisfação do usuário.
 - Experiência de usuário:
   - A experiência do usuário é marcada pela praticidade e confiança, já que o sistema analisa automaticamente os vídeos e apresenta os resultados de forma clara e visual. O usuário acompanha as detecções em tempo real e recebe relatórios prontos, o que gera satisfação, reduz esforço e agiliza o trabalho de pesquisa.
+- Acessibilidade:
+  - O sistema é simples, intuitivo e não exige conhecimentos técnicos avançados, permitindo que qualquer pesquisador utilize com facilidade.
+- Comunicabilidade:
+  - As informações são transmitidas de forma clara, com resultados visuais e relatórios objetivos que facilitam a compreensão e a tomada de decisões.  
 
 ## Ambiente e contexto
-
+- Mariana Alves:
+  - A pesquisadora Mariana atua em um ambiente acadêmico e de conservação, onde lida diariamente com grandes quantidades de vídeos coletados em áreas de floresta nativa. Seu contexto é marcado pela pressão por resultados rápidos e precisos, necessários para publicações científicas e relatórios institucionais. A sobrecarga com análises manuais motiva a busca por ferramentas automatizadas que auxiliem na identificação confiável de espécies, permitindo otimizar o tempo e focar em interpretações científicas.
+- Lucas Ferreira:
+  - O analista de ONG Lucas trabalha em campo e em escritórios de organizações ambientais, em um cenário de recursos limitados e conectividade instável. Sua rotina exige soluções práticas e acessíveis que reduzam o tempo de triagem de imagens e vídeos, garantindo informações ágeis para embasar decisões de conservação e ações de proteção de áreas ameaçadas. Ele precisa de ferramentas que funcionem bem em condições adversas e que sejam simples de utilizar, mesmo por equipes não técnicas.
+- Camila Rodrigues:
+  - A estudante de pós-graduação Camila está inserida em um contexto de pesquisa acadêmica aplicada, onde os vídeos coletados servem como base para validar hipóteses e produzir conhecimento científico. Ela necessita de métodos que permitam extrair informações de forma intuitiva e confiável, já que dedica grande parte do tempo à análise de dados para compreender padrões de comportamento e ocorrência dos macacos-prego. O uso de tecnologias de IA surge como um diferencial para reduzir esforços manuais e acelerar o desenvolvimento de sua dissertação.
+- João Pedro Martins:
+  - O estudante de computação João Pedro vive um contexto acadêmico e de inovação tecnológica, onde busca aplicar seus conhecimentos em programação e inteligência artificial a problemas reais. Ele encontra na detecção de macacos-prego uma oportunidade de aprendizado prático e de impacto social, contribuindo diretamente para a conservação da biodiversidade. Seu ambiente é de constante experimentação e testes, em que a motivação vem tanto do desafio técnico quanto da possibilidade de apoiar iniciativas ambientais relevantes. 
 
 <!--
 ## Análise de concorrência
