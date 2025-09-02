@@ -107,7 +107,7 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 - Comunicabilidade:
   - As informações são transmitidas de forma clara, com resultados visuais e relatórios objetivos que facilitam a compreensão e a tomada de decisões.  
 
-## Ambiente e contexto
+## Cenário de Problema
 - Mariana Alves:
   - A pesquisadora Mariana atua em um ambiente acadêmico e de conservação, onde lida diariamente com grandes quantidades de vídeos coletados em áreas de floresta nativa. Seu contexto é marcado pela pressão por resultados rápidos e precisos, necessários para publicações científicas e relatórios institucionais. A sobrecarga com análises manuais motiva a busca por ferramentas automatizadas que auxiliem na identificação confiável de espécies, permitindo otimizar o tempo e focar em interpretações científicas.
 - Lucas Ferreira:
