@@ -44,24 +44,28 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 
    - Mariana Alves, 42 anos, pesquisadora em Biologia da Conservação – "Preciso de precisão e rapidez para não perder tempo com triagens manuais"
         - Mariana é pesquisadora em um instituto na Amazônia e coordena projetos de monitoramento da fauna em áreas protegidas. Ela lida com milhares de vídeos de armadilhas fotográficas e precisa de resultados confiáveis para publicar artigos científicos e apoiar políticas de conservação. Busca reduzir o tempo gasto em análises manuais e ter relatórios padronizados para embasar decisões.
-         <img width="315" height="315" alt="image" src="https://github.com/user-attachments/assets/65fce8b2-ef72-4dba-a8d5-78f2fb77fa1f" />
+
+<img width="315" height="315" alt="image" src="https://github.com/user-attachments/assets/65fce8b2-ef72-4dba-a8d5-78f2fb77fa1f" />
 
    
    - Lucas Ferreira, 28 anos, analista de ONG Ambiental – "Quanto mais acessível a tecnologia, mais impacto podemos gerar em campo"
         - Lucas trabalha em uma ONG que realiza monitoramento participativo de fauna junto a comunidades locais. Muitas vezes atua em áreas sem internet, o que exige ferramentas que funcionem offline. Precisa de uma solução simples e acessível para rodar em notebooks comuns, sem depender de grandes servidores. Valoriza tecnologias que aproximam ciência e comunidades em prol da conservação.
-          <img width="315" height="315" alt="image" src="https://github.com/user-attachments/assets/23918d55-b9b5-4647-8b9a-58cbf4b4303f" />
+
+<img width="315" height="315" alt="image" src="https://github.com/user-attachments/assets/23918d55-b9b5-4647-8b9a-58cbf4b4303f" />
 
    
    - Camila Rodrigues, 31 anos, mestranda em Ecologia – "Preciso de uma interface clara para testar hipóteses no meu projeto"
         - Camila desenvolve dissertação sobre comportamento de primatas em fragmentos florestais. Ela deseja utilizar vídeos de armadilhas fotográficas para extrair informações quantitativas sobre presença e comportamento dos macacos-prego. Precisa de uma interface gráfica intuitiva, que permita carregar vídeos, ajustar níveis de confiança e exportar dados de forma organizada.
-          <img width="315" height="315" alt="image" src="https://github.com/user-attachments/assets/82a69e4e-802b-46c3-b3b6-67249031c5f5" />
+
+<img width="315" height="315" alt="image" src="https://github.com/user-attachments/assets/82a69e4e-802b-46c3-b3b6-67249031c5f5" />
 
 
   #### Personas Secundárias
     
    - João Pedro Martins, 23 anos, estudante de Ciência da Computação desenvolvendo seu Trabalho de Conclusão de Curso – "Quero aplicar IA em um problema real de conservação"
         - João Pedro está no último semestre de Ciência da Computação e decidiu aplicar visão computacional em um tema de impacto social e ambiental. Ele busca usar o sistema como base para aprender mais sobre aprendizado profundo e aplicar modelos como YOLO em problemas reais. Tem bom domínio de programação em Python, mas pouca experiência prática com ecologia e comportamento animal.
-          <img width="315" height="315" alt="image" src="https://github.com/user-attachments/assets/c4a6fe8e-8d96-4b39-b21d-a66eccd201e0" />
+
+<img width="315" height="315" alt="image" src="https://github.com/user-attachments/assets/c4a6fe8e-8d96-4b39-b21d-a66eccd201e0" />
 
 
 ### Mapa de empatia
