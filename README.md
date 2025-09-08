@@ -72,7 +72,7 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 
 ![Mapa de empatia](empatia.png)
 
-## Persona Primária
+## Personas Primárias
 - Mariana Alves, 42 anos
   - O que o usuário vê: Laboratórios, armadilhas fotográficas, grandes volumes de vídeos no computador. Outros pesquisadores e alunos trabalhando em análises manuais demoradas. Relatórios científicos que dependem de muito esforço humano.
   - O que o usuário ouve: Conversas de colegas sobre a dificuldade em lidar com tantos dados. Demandas de instituições de conservação por relatórios rápidos e confiáveis. Críticas sobre erros ou atrasos na análise manual.
@@ -80,7 +80,22 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
   - O que o usuário pensa e sente: Sente frustração com a lentidão do processo manual. Tem expectativa de que um sistema de IA traga precisão e economia de tempo. Acredita que a tecnologia pode acelerar avanços em conservação.
   - Dores: Volume excessivo de vídeos para analisar. Dificuldade em encontrar ferramentas adaptadas ao contexto de florestas tropicais. Pressão por resultados científicos rápidos.
   - Ganhos: Economia de tempo na análise. Relatórios padronizados e confiáveis. Apoio direto às suas pesquisas e publicações.
- 
+
+- Lucas Ferreira, 28 anos
+  - O que o usuário vê: Comunidades locais em campo, áreas remotas sem infraestrutura tecnológica, equipamentos simples como notebooks comuns e armadilhas fotográficas. Relatórios de difícil interpretação por parte das comunidades.
+  - O que o usuário ouve: Demandas por resultados acessíveis vindas de líderes comunitários. Conversas sobre limitações de internet e recursos. Discussões sobre a importância de levar ciência de forma clara para populações locais.
+  - O que o usuário diz e faz: Afirma a necessidade de tecnologias acessíveis e práticas. Cobra ferramentas que funcionem offline. Apresenta resultados simplificados para comunidades, tentando aproximar ciência e conservação.
+  - O que o usuário pensa e sente: Sente que soluções complexas distanciam a ciência das pessoas. Acredita que simplicidade e acessibilidade ampliam o impacto. Valoriza resultados que possam ser aplicados diretamente em campo.
+  - Dores: Falta de internet nas áreas de atuação. Necessidade de equipamentos de alto desempenho que não estão disponíveis. Barreiras na comunicação entre ciência e comunidades.
+  - Ganhos: Uso de ferramentas offline em notebooks comuns. Relatórios acessíveis e simplificados. Maior impacto social e ambiental ao aproximar ciência e comunidades.
+
+- Camila Rodrigues, 31 anos
+  - O que o usuário vê: Laboratórios acadêmicos, vídeos longos de armadilhas fotográficas, tabelas de dados pouco organizadas. Professores e colegas discutindo hipóteses de pesquisa e cobrando resultados estruturados.
+  - O que o usuário ouve: Orientações do orientador sobre a necessidade de análises quantitativas confiáveis. Comentários de colegas sobre a dificuldade de extrair dados de comportamento animal manualmente.
+  - O que o usuário diz e faz: Expressa a necessidade de ferramentas com interface clara. Testa diferentes softwares de análise de vídeo. Cobra organização e eficiência para alinhar os dados com sua pesquisa de mestrado.
+  - O que o usuário pensa e sente: Sente insegurança diante do excesso de dados e da limitação de ferramentas. Acredita que uma interface gráfica simples pode facilitar sua análise e dar mais confiança aos resultados.
+  - Dores: Processos manuais demorados. Falta de ferramentas específicas para extrair dados comportamentais. Dificuldade em exportar informações de forma organizada.
+  - Ganhos: Interface intuitiva que permite testar hipóteses com facilidade. Ajuste de níveis de confiança para personalizar análises. Exportação de dados prontos para uso em dissertações e artigos.
  ## Persona Secundária
 - João Pedro Martins, 23 anos
   - O que o usuário vê: Ambiente acadêmico de laboratório de computação. Professores, colegas e ferramentas de visão computacional como YOLO, PyTorch e TensorFlow. Exemplos de TCCs anteriores com temas aplicados.
