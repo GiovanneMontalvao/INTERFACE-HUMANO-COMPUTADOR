@@ -144,6 +144,106 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 - João Pedro Martins:
   - O estudante de computação João Pedro vive um contexto acadêmico e de inovação tecnológica, onde busca aplicar seus conhecimentos em programação e inteligência artificial a problemas reais. Ele encontra na detecção de macacos-prego uma oportunidade de aprendizado prático e de impacto social, contribuindo diretamente para a conservação da biodiversidade. Seu ambiente é de constante experimentação e testes, em que a motivação vem tanto do desafio técnico quanto da possibilidade de apoiar iniciativas ambientais relevantes. 
 
+# Questões para Refinamento de cenários
+
+## Mariana Alves
+
+1. Por que Mariana precisa automatizar a detecção de macacos-prego em vídeos de floresta nativa?  
+2. Que resultados ela espera do sistema (identificação de espécie, tempo economizado, precisão mínima)?  
+3. Quais metadados são necessários para treinar e validar o modelo (rótulos de espécie, localização, horário)?  
+4. Em quais ambientes e servidores o sistema será executado?  
+5. Qual qualidade mínima dos vídeos (resolução, iluminação) que ela consegue obter no campo?  
+6. Que ferramentas acadêmicas já fazem parte do fluxo de trabalho dela?  
+7. Quais são os prazos e pressões de entrega de resultados?  
+8. Quem carrega e anota os vídeos para análise?  
+9. Quem valida as detecções e quem é notificado dos resultados?  
+10. Como ela ajusta parâmetros de modelo e configurações de detecção?  
+11. Que modos de execução (local, nuvem, em lote) ela precisa?  
+12. Como ela avalia a confiabilidade dos resultados e documenta para relatórios?
+
+---
+
+## Lucas Ferreira
+
+1. Por que Lucas precisa acelerar a triagem de vídeos em campo e escritório?  
+2. Qual nível de confiabilidade ele exige para suporte a decisões urgentes?  
+3. Que metadados (GPS, hora) são essenciais para as análises de campo?  
+4. Quais dispositivos e recursos ele utiliza em campo (smartphone, laptop com bateria limitada)?  
+5. Como lidar com conexão de internet intermitente ou inexistente?  
+6. Quais condições ambientais afetam a qualidade dos vídeos (chuva, neblina)?  
+7. Quem faz o upload e coleta os vídeos e qual o nível técnico da equipe?  
+8. Quem consome as informações geradas e precisa ser alertado de espécies críticas?  
+9. Que estratégias de pré-seleção ou análise alternativa ele explora?  
+10. Quais modos de processamento (local vs. remoto) e como ele decide entre eles?  
+11. Que falhas podem ocorrer em campo e como ele contorna?  
+12. Como ele valida a precisão em campo e reporta os resultados?
+
+---
+
+## Camila Rodrigues
+
+1. Por que Camila precisa de uma ferramenta intuitiva para extrair padrões de ocorrência?  
+2. Quais hipóteses ela testa com a detecção automática?  
+3. Que atributos de saída (número de aparições, períodos de atividade) são gerados?  
+4. Que interfaces gráficas ou notebooks ela prefere?  
+5. Qual qualidade dos vídeos coletados e restrições de formato?  
+6. Quais prazos de defesa e submissão ela enfrenta?  
+7. Quem importa e anota vídeos e revisa os resultados?  
+8. Que estratégias de visualização de dados ela quer aplicar?  
+9. Como define filtros de qualidade e sensibilidade do modelo?  
+10. Quais modos de execução (script, GUI) atendem melhor seu uso?  
+11. Que problemas técnicos podem surgir e como contorná-los?  
+12. Como ela valida métricas (recall, precisão) e documenta para a dissertação?
+
+---
+
+## João Pedro Martins
+
+1. Por que João Pedro quer aplicar IA na detecção de macacos-prego?  
+2. Que aprendizado prático (Python, TensorFlow, pipeline CI/CD) ele busca com o projeto?  
+3. Que saídas técnicas (modelos treinados, documentação de código) são geradas?  
+4. Em quais máquinas (desktop da universidade, servidor de GPU) ele testa o sistema?  
+5. Que ferramentas de desenvolvimento (VS Code, Git, Docker) já estão instaladas?  
+6. Como ele lida com limites de memória e processamento?  
+7. Quem submete pull requests ou issues no repositório de código?  
+8. Que decisões de arquitetura (microserviços vs. monolito) ele precisa tomar?  
+9. Em que ordem cria testes unitários, documenta a API e implementa a detecção?  
+10. Quais modos (debug vs. produção) ele implementa?  
+11. Quais falhas técnicas devem ser previstas e como tratá-las?  
+12. Como ele verifica performance e documenta benchmarks para o portfólio?
+
+# Cenários de Problema com Referência às Perguntas
+
+---
+
+## Mariana Alves
+
+Mariana Alves:  
+A pesquisadora Mariana atua em um ambiente acadêmico e de conservação[4], onde lida diariamente com grandes quantidades de vídeos coletados em áreas de floresta nativa[3]. Seu contexto é marcado pela pressão por resultados rápidos e precisos, necessários para publicações científicas e relatórios institucionais[7]. A sobrecarga com análises manuais motiva a busca por ferramentas automatizadas que auxiliem na identificação confiável de espécies, permitindo otimizar o tempo e focar em interpretações científicas[1][2].
+
+---
+
+## Lucas Ferreira
+
+Lucas Ferreira:  
+O analista de ONG Lucas trabalha em campo e em escritórios de organizações ambientais, em um cenário de recursos limitados e conectividade instável[4][5]. Sua rotina exige soluções práticas e acessíveis que reduzam o tempo de triagem de imagens e vídeos, garantindo informações ágeis para embasar decisões de conservação e ações de proteção de áreas ameaçadas[1][2]. Ele precisa de ferramentas que funcionem bem em condições adversas e que sejam simples de utilizar, mesmo por equipes não técnicas[9][10].
+
+---
+
+## Camila Rodrigues
+
+Camila Rodrigues:  
+A estudante de pós-graduação Camila está inserida em um contexto de pesquisa acadêmica aplicada, onde os vídeos coletados servem como base para validar hipóteses e produzir conhecimento científico[1][2][6]. Ela necessita de métodos que permitam extrair informações de forma intuitiva e confiável, já que dedica grande parte do tempo à análise de dados para compreender padrões de comportamento e ocorrência dos macacos-prego[1][3]. O uso de tecnologias de IA surge como um diferencial para reduzir esforços manuais e acelerar o desenvolvimento de sua dissertação[6][12].
+
+---
+
+## João Pedro Martins
+
+João Pedro Martins:  
+O estudante de computação João Pedro vive um contexto acadêmico e de inovação tecnológica, onde busca aplicar seus conhecimentos em programação e inteligência artificial a problemas reais[1][2]. Ele encontra na detecção de macacos-prego uma oportunidade de aprendizado prático e de impacto social, contribuindo diretamente para a conservação da biodiversidade[3]. Seu ambiente é de constante experimentação e testes, em que a motivação vem tanto do desafio técnico quanto da possibilidade de apoiar iniciativas ambientais relevantes[4][5][8].
+
+---
+
 <!--
 ## Análise de concorrência
 
