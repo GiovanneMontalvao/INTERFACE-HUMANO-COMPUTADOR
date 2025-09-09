@@ -144,9 +144,9 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 - João Pedro Martins:
   - O estudante de computação João Pedro vive um contexto acadêmico e de inovação tecnológica, onde busca aplicar seus conhecimentos em programação e inteligência artificial a problemas reais. Ele encontra na detecção de macacos-prego uma oportunidade de aprendizado prático e de impacto social, contribuindo diretamente para a conservação da biodiversidade. Seu ambiente é de constante experimentação e testes, em que a motivação vem tanto do desafio técnico quanto da possibilidade de apoiar iniciativas ambientais relevantes. 
 
-# Questões para Refinamento de cenários
+## Questões para Refinamento de cenários
 
-## Mariana Alves
+### Mariana Alves
 
 1. Por que Mariana precisa automatizar a detecção de macacos-prego em vídeos de floresta nativa?  
 2. Que resultados ela espera do sistema (identificação de espécie, tempo economizado, precisão mínima)?  
@@ -163,7 +163,7 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 
 ---
 
-## Lucas Ferreira
+### Lucas Ferreira
 
 1. Por que Lucas precisa acelerar a triagem de vídeos em campo e escritório?  
 2. Qual nível de confiabilidade ele exige para suporte a decisões urgentes?  
@@ -197,7 +197,7 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 
 ---
 
-## João Pedro Martins
+### João Pedro Martins
 
 1. Por que João Pedro quer aplicar IA na detecção de macacos-prego?  
 2. Que aprendizado prático (Python, TensorFlow, pipeline CI/CD) ele busca com o projeto?  
@@ -212,32 +212,32 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 11. Quais falhas técnicas devem ser previstas e como tratá-las?  
 12. Como ele verifica performance e documenta benchmarks para o portfólio?
 
-# Cenários de Problema com Referência às Perguntas
+## Cenários de Problema com Referência às Perguntas
 
 ---
 
-## Mariana Alves
+### Mariana Alves
 
 Mariana Alves:  
 A pesquisadora Mariana atua em um ambiente acadêmico e de conservação[4], onde lida diariamente com grandes quantidades de vídeos coletados em áreas de floresta nativa[3]. Seu contexto é marcado pela pressão por resultados rápidos e precisos, necessários para publicações científicas e relatórios institucionais[7]. A sobrecarga com análises manuais motiva a busca por ferramentas automatizadas que auxiliem na identificação confiável de espécies, permitindo otimizar o tempo e focar em interpretações científicas[1][2].
 
 ---
 
-## Lucas Ferreira
+### Lucas Ferreira
 
 Lucas Ferreira:  
 O analista de ONG Lucas trabalha em campo e em escritórios de organizações ambientais, em um cenário de recursos limitados e conectividade instável[4][5]. Sua rotina exige soluções práticas e acessíveis que reduzam o tempo de triagem de imagens e vídeos, garantindo informações ágeis para embasar decisões de conservação e ações de proteção de áreas ameaçadas[1][2]. Ele precisa de ferramentas que funcionem bem em condições adversas e que sejam simples de utilizar, mesmo por equipes não técnicas[9][10].
 
 ---
 
-## Camila Rodrigues
+### Camila Rodrigues
 
 Camila Rodrigues:  
 A estudante de pós-graduação Camila está inserida em um contexto de pesquisa acadêmica aplicada, onde os vídeos coletados servem como base para validar hipóteses e produzir conhecimento científico[1][2][6]. Ela necessita de métodos que permitam extrair informações de forma intuitiva e confiável, já que dedica grande parte do tempo à análise de dados para compreender padrões de comportamento e ocorrência dos macacos-prego[1][3]. O uso de tecnologias de IA surge como um diferencial para reduzir esforços manuais e acelerar o desenvolvimento de sua dissertação[6][12].
 
 ---
 
-## João Pedro Martins
+### João Pedro Martins
 
 João Pedro Martins:  
 O estudante de computação João Pedro vive um contexto acadêmico e de inovação tecnológica, onde busca aplicar seus conhecimentos em programação e inteligência artificial a problemas reais[1][2]. Ele encontra na detecção de macacos-prego uma oportunidade de aprendizado prático e de impacto social, contribuindo diretamente para a conservação da biodiversidade[3]. Seu ambiente é de constante experimentação e testes, em que a motivação vem tanto do desafio técnico quanto da possibilidade de apoiar iniciativas ambientais relevantes[4][5][8].
