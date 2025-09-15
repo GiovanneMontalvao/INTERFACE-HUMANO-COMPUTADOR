@@ -250,6 +250,7 @@ Camila Rodrigues é mestranda em Ecologia e precisa de uma ferramenta intuitiva 
 Os vídeos coletados em campo apresentam qualidade variável, com diferentes resoluções e formatos, o que exige que o sistema seja capaz de lidar com tais restrições [5]. Camila enfrenta prazos rígidos de defesa e submissão de artigos científicos, o que aumenta sua dependência de ferramentas que economizem tempo [6]. Normalmente, alunos auxiliares ajudam a importar e anotar vídeos, mas a revisão dos resultados fica sob responsabilidade da própria pesquisadora [7]. Ela também deseja aplicar estratégias de visualização de dados, como gráficos de frequência temporal e mapas de calor de atividade [8].
 
 Para refinar suas análises, define filtros de qualidade e ajusta a sensibilidade do modelo conforme o contexto experimental [9]. Modos de execução tanto por interface gráfica (GUI) quanto por scripts são relevantes, dependendo da etapa do trabalho — a GUI para triagens rápidas e scripts para análises reprodutíveis [10]. Entre os problemas técnicos mais comuns estão incompatibilidades de formato de vídeo e limitações de hardware, que ela contorna convertendo arquivos e utilizando versões reduzidas de dados [11]. Por fim, Camila valida métricas como recall e precisão, documentando os resultados de forma padronizada para sua dissertação e publicações científicas [12].
+
 ---
 
 ### João Pedro Martins
