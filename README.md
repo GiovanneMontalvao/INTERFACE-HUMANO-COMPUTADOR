@@ -122,6 +122,8 @@ Desenvolveremos um sistema automatizado, baseado em aprendizado profundo, para c
 ## Jornada do usuário
  
 - Mariana Alves recebe os vídeos das armadilhas fotográficas do campo e, quando chega no laboratório, abre o programa pra começar a análise. Em seguida, o sistema inicia a separar os trechos onde aparece um macaco‑prego, mesmo sem internet. Enquanto o programa roda, ela acompanha as detecções na tela em tempo real. Quando termina, o sistema mostra um painel com os resultados e gera relatórios prontos pra usar.
+- Lucas Ferreira leva seu notebook para comunidades locais onde a ONG atua e carrega os vídeos coletados em campo. Ele abre o programa e, mesmo sem conexão à internet, o sistema começa a identificar automaticamente os macacos-prego. Durante a análise, Lucas mostra os resultados para os moradores, aproximando ciência e comunidade. Ao final, exporta relatórios simples e acessíveis para compartilhar com a equipe da ONG.
+- Camila Rodrigues organiza os vídeos das armadilhas fotográficas para sua pesquisa de mestrado e abre o programa no laboratório. Ela ajusta os parâmetros de confiança da detecção para refinar os resultados e acompanha as marcações feitas pelo sistema em tempo real. Após a análise, exporta os dados quantitativos já organizados em tabelas, que serão usados para testar hipóteses sobre o comportamento dos macacos-prego em diferentes fragmentos florestais.
 
 ## Qualidade de uso
 
