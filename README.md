@@ -264,18 +264,28 @@ O estudante de computação João Pedro vive um contexto acadêmico e de inovaç
 
 ---
 
-## Análise de Tarefas
-### HTA
+# Análise de Tarefas
+## HTA
 
-
+### 1. Carregar vídeo
+O usuário seleciona o arquivo no computador e realiza o upload para o sistema iniciar a análise.
 <img width="684" height="426" alt="image" src="https://github.com/user-attachments/assets/9d55867b-9774-4e9f-a891-62f644a33780" />
+
+### 2. Ajustar parâmetros de análise
+O pesquisador pode configurar a confiança mínima e a taxa de frames a processar para equilibrar precisão e desempenho.
 <img width="579" height="350" alt="image" src="https://github.com/user-attachments/assets/afbb944c-7c2b-45eb-a85a-820baf31c61c" />
+
+### 3. Executar processamento automático
+O sistema processa os vídeos usando IA, destacando os trechos relevantes e mostrando as detecções.
 <img width="561" height="349" alt="image" src="https://github.com/user-attachments/assets/ac78f88f-587e-484f-9f92-da7289d67261" />
+
+### 4. Validar resultados
+O usuário revisa os resultados, podendo ajustar parâmetros e repetir a análise se necessário.
 <img width="553" height="349" alt="image" src="https://github.com/user-attachments/assets/2f13c57f-5d9f-43d5-9f97-303b76166506" />
+
+### 5. Gerar relatórios
+Ao final, o sistema gera saídas organizadas para pesquisa e documentação científica.
 <img width="598" height="353" alt="image" src="https://github.com/user-attachments/assets/99d3fbc6-fedc-4fd9-80e7-df8ff0ed3a12" />
-
-
-
 
 
 
