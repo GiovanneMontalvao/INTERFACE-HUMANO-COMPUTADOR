@@ -264,6 +264,21 @@ O estudante de computação João Pedro vive um contexto acadêmico e de inovaç
 
 ---
 
+## Análise de Tarefas
+### HTA
+
+
+<img width="684" height="426" alt="image" src="https://github.com/user-attachments/assets/9d55867b-9774-4e9f-a891-62f644a33780" />
+<img width="579" height="350" alt="image" src="https://github.com/user-attachments/assets/afbb944c-7c2b-45eb-a85a-820baf31c61c" />
+<img width="561" height="349" alt="image" src="https://github.com/user-attachments/assets/ac78f88f-587e-484f-9f92-da7289d67261" />
+<img width="553" height="349" alt="image" src="https://github.com/user-attachments/assets/2f13c57f-5d9f-43d5-9f97-303b76166506" />
+<img width="598" height="353" alt="image" src="https://github.com/user-attachments/assets/99d3fbc6-fedc-4fd9-80e7-df8ff0ed3a12" />
+
+
+
+
+
+
 <!--
 ## Análise de concorrência
 
