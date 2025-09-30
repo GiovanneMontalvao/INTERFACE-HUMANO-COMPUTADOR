@@ -316,7 +316,6 @@ Ao final, o sistema gera saídas organizadas para pesquisa e documentação cien
 ## CTT
 <img width="1084" height="358" alt="image" src="https://github.com/user-attachments/assets/e194fc50-f1d6-4770-aa0e-a6f76efcec55" />
 
-
 <!--
 ## Análise de concorrência
 
@@ -328,6 +327,32 @@ Ao final, o sistema gera saídas organizadas para pesquisa e documentação cien
  -->
  
 ## Coleta de dados
+
+### O quê coletar
+  - Perfil do usuário (formação, experiência com tecnologia e com pesquisa em biodiversidade).
+  - Necessidades e dificuldades na análise manual de vídeos.
+  - Expectativas quanto à precisão, tempo de processamento e formato dos relatórios.
+  - Contexto de uso (laboratórios, campo, limitações de internet e hardware).
+
+### De quem coletar
+  - Pesquisadores em biologia da conservação.
+  - Analistas de ONGs ambientais.
+  - Estudantes de graduação e pós-graduação que utilizam armadilhas fotográficas.
+  - Voluntários que apoiam na coleta de vídeos em campo.
+
+### Ferramenta de coleta 1: Entrevistas semiestruturadas
+- Aplicar entrevistas diretas com pesquisadores e analistas para compreender fluxos de trabalho, expectativas e dores no processo de análise manual.
+
+### Ferramenta de coleta 2: Questionários online
+- Enviar questionários padronizados para um público maior (estudantes e voluntários), coletando informações rápidas sobre uso de tecnologia e necessidades de interface.
+    
+### Ferramenta de coleta 3: Observação em campo / estudos de campo
+- Acompanhar usuários no processo de coleta e análise de vídeos, observando limitações práticas (internet, bateria, iluminação) e como lidam com os dados antes da análise automatizada.
+
+### Aspectos éticos
+- Consentimento livre e esclarecido.
+- Garantia de anonimato e confidencialidade dos dados.
+- Participação voluntária com possibilidade de desistir a qualquer momento.
 
 ## Modelo de tarefas
 
