@@ -313,6 +313,9 @@ Ao final, o sistema gera saídas organizadas para pesquisa e documentação cien
     - METHOD 4.B: Exportar tabela CSV
     - RULE: Se relatório é para artigo científico → usar PDF; se para dados brutos → usar CSV
 
+## CTT
+<img width="1084" height="358" alt="image" src="https://github.com/user-attachments/assets/e194fc50-f1d6-4770-aa0e-a6f76efcec55" />
+
 
 <!--
 ## Análise de concorrência
