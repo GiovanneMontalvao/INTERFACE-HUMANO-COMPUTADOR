@@ -273,6 +273,7 @@ O usuário seleciona o arquivo no computador e realiza o upload para o sistema i
 
 ### 2. Ajustar parâmetros de análise
 O pesquisador pode configurar a confiança mínima e a taxa de frames a processar para equilibrar precisão e desempenho.
+
 <img width="579" height="350" alt="image" src="https://github.com/user-attachments/assets/afbb944c-7c2b-45eb-a85a-820baf31c61c" />
 
 ### 3. Executar processamento automático
