@@ -294,6 +294,7 @@ Ao final, o sistema gera saídas organizadas para pesquisa e documentação cien
 - GOAL 0: Obter relatório automatizado de presença de macacos-prego
   - GOAL 1: Carregar vídeo
     - METHOD 1.A: Selecionar arquivo pelo explorador de arquivos
+    - RULE: O sistema deve permitir seleção de arquivo somente em formatos de vídeo suportados. Se o usuário tentar carregar arquivo inválido, exibir aviso e bloquear o carregamento.
       - OP. 1.A.1: Clicar em “Carregar vídeo”
       - OP. 1.A.2: Navegar até pasta do vídeo
       - OP. 1.A.3: Selecionar arquivo e confirmar
@@ -307,10 +308,12 @@ Ao final, o sistema gera saídas organizadas para pesquisa e documentação cien
 
   - GOAL 3: Rodar análise
     - METHOD 3.A: Pressionar botão “Iniciar análise”
+    - RULE: O botão “Iniciar análise” deve ficar desabilitado enquanto nenhum vídeo válido estiver carregado ou se os parâmetros estiverem fora do intervalo aceitável.
       - OP. 3.A.1: Sistema processa vídeo e mostra detecções
 
   - GOAL 4: Exportar resultados
     - METHOD 4.A: Gerar PDF automático
+    - RULE: Se o relatório é para artigo científico, o sistema deve gerar PDF formatado automaticamente com visualização prévia
     - METHOD 4.B: Exportar tabela CSV
     - RULE: Se relatório é para artigo científico → usar PDF; se para dados brutos → usar CSV
 
