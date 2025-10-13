@@ -358,6 +358,53 @@ Ao final, o sistema gera saídas organizadas para pesquisa e documentação cien
 - Garantia de anonimato e confidencialidade dos dados.
 - Participação voluntária com possibilidade de desistir a qualquer momento.
 
+# Ciclo de Vida de Usabilidade
+## Características da Plataforma
+
+### Descrição de software e hardware
+| **Item**     | **Descrição**                                                                                                                                                                                                                                                                                                                   |
+| ------------ | -------------------------------------------------- |
+| **Hardware** | **PC1:** Ryzen 7 5700x (8 núcleos / 16 threads / 3.4 GHz), RAM: 32 GB, GPU: RTX 4060 (8 GB VRAM) <br> **PC2:** Ryzen 9 5900x (12 núcleos / 24 threads / 3.3 GHz), RAM: 32 GB, GPU: RTX 4070 Ti (12 GB VRAM) <br> **PC3:** Notebook i7 (10ª geração), 16 GB RAM, GPU dedicada GTX 1660 (6 GB VRAM) – usado em análises de campo. |
+| **Software** | **Interface (UI):** customTkinter <br> **Linguagem:** Python 3.10 <br> **Bibliotecas principais:** YOLOv8 (Ultralytics), OpenCV, TensorFlow 2.19.0, customTkinter, pandas, numpy. <br> **Sistema Operacional:** compatível com Windows e Linux.     |
+
+### Capacidades da plataforma
+| **Capacidade**                             | **Justificativa**                                                                                          |
+| ------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
+| Suporte a vídeos em alta resolução (≥720p) | Necessário para garantir detecções mais precisas de macacos-prego em ambientes de floresta.                |
+| Execução offline                           | Essencial para uso em campo, onde o acesso à internet é limitado ou inexistente.                           |
+| Placa de vídeo dedicada                    | Fundamental para aceleração de inferência e redução do tempo de análise.                                   |
+| Exportação automática de relatórios        | Facilita o uso acadêmico e institucional, gerando documentos prontos para publicação ou relatório técnico. |
+
+### Restrições da plataforma
+| **Restrição**                                    | **Justificativa**                                                                                                            |
+| ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| Dependência de hardware intermediário            | O processamento de vídeo e IA exige desempenho acima de notebooks básicos, especialmente para longas gravações.              |
+| Qualidade mínima de vídeo (720p, boa iluminação) | Baixa iluminação ou ruídos visuais comprometem o reconhecimento de animais e aumentam falsos positivos.                      |
+| Tempo de processamento dependente da GPU         | Quanto maior o número de vídeos e resolução, maior o tempo de inferência; otimizações são necessárias para análises em lote. |
+
+## Princípios Gerais do Projeto
+| **Princípio**            | **Descrição no contexto do projeto**                                                                                           |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Simplicidade**         | A interface contém apenas as funções essenciais: carregar vídeo, iniciar análise, visualizar resultados e exportar relatórios. |
+| **Consistência**         | Ícones, termos e fluxos são padronizados (ex.: “Iniciar análise”, “Exportar PDF”).                                             |
+| **Feedback imediato**    | O sistema mostra o progresso e as detecções em tempo real.                                                                     |
+| **Prevenção de erros**   | Mensagens de confirmação antes de reprocessar vídeos ou excluir dados.                                                         |
+| **Flexibilidade**        | Ajuste de parâmetros de confiança e taxa de frames acessível a todos os perfis de usuário.                                     |
+| **Eficiência e rapidez** | O modelo YOLOv8s garante detecção precisa em tempo reduzido.                                                                   |
+| **Apoio à aprendizagem** | Interface autoexplicativa, com feedback visual e textual para guiar o usuário.                                                 |
+
+## Metas de Usabilidade
+| **Meta**           | **Descrição e Indicador de Avaliação**                                                                     |
+| ------------------ | ---------------------------------------------------------------------------------------------------------- |
+| **Eficácia**       | O sistema deve detectar corretamente macacos-prego com taxa mínima de **90% de acerto**.                   |
+| **Eficiência**     | Reduzir o tempo de análise de vídeos em **70%** comparado à triagem manual.                                |
+| **Satisfação**     | Usuários devem avaliar positivamente a interface, atingindo **nota ≥ 4 em 5** no questionário SUS.         |
+| **Aprendizado**    | Usuário deve ser capaz de concluir uma análise completa na **primeira interação**, sem treinamento formal. |
+| **Memorabilidade** | Após 15 dias sem uso, o usuário deve conseguir repetir o processo sem erros.                               |
+| **Erros**          | A taxa de falhas operacionais deve ser **menor que 5%** do total de execuções.                             |
+
+
+
 ## Modelo de tarefas
 
 ## Design
