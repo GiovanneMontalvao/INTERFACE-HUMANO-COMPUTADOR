@@ -329,7 +329,17 @@ Ao final, o sistema gera saídas organizadas para pesquisa e documentação cien
   - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
   - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
  -->
- 
+
+## Prototipação no Papel
+### Tela 1 (inicial)
+<img width="850" height="500" alt="image" src="https://github.com/user-attachments/assets/a28a8a67-9906-4869-84e3-cbb84e647a8c" />
+
+### Tela 2 (Detecção)
+<img width="850" height="500" alt="image" src="https://github.com/user-attachments/assets/5050b029-1483-46bc-941d-fd244c59b645" />
+
+### Tela 3 (Relatórios)
+<img width="850" height="500" alt="image" src="https://github.com/user-attachments/assets/23a24630-ecf6-4371-82b0-b02b3799fb18" />
+
 ## Coleta de dados
 
 ### O quê coletar
