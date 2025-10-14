@@ -356,9 +356,11 @@ Ao final, o sistema gera saídas organizadas para pesquisa e documentação cien
 
 ### Ferramenta de coleta 1: Entrevistas semiestruturadas
 - Aplicar entrevistas diretas com pesquisadores e analistas para compreender fluxos de trabalho, expectativas e dores no processo de análise manual.
+  
 
 ### Ferramenta de coleta 2: Questionários online
 - Enviar questionários padronizados para um público maior (estudantes e voluntários), coletando informações rápidas sobre uso de tecnologia e necessidades de interface.
+- https://docs.google.com/forms/d/e/1FAIpQLSfs7E9kJ7AejVE4HzPGKwOsa9dSuY1-Ww9z0aSumbGP_MyC1w/viewform?usp=dialog
     
 ### Ferramenta de coleta 3: Observação em campo / estudos de campo
 - Acompanhar usuários no processo de coleta e análise de vídeos, observando limitações práticas (internet, bateria, iluminação) e como lidam com os dados antes da análise automatizada.
