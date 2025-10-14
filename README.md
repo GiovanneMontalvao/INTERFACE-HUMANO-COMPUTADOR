@@ -356,6 +356,7 @@ Ao final, o sistema gera saídas organizadas para pesquisa e documentação cien
 
 ### Ferramenta de coleta 1: Entrevistas semiestruturadas
 - Aplicar entrevistas diretas com pesquisadores e analistas para compreender fluxos de trabalho, expectativas e dores no processo de análise manual.
+- https://docs.google.com/forms/d/e/1FAIpQLSfZrrq_-NfbNGAO497ap6I9EhPsqOuGPozMW2mywfHzl6af7A/viewform?usp=header
   
 
 ### Ferramenta de coleta 2: Questionários online
