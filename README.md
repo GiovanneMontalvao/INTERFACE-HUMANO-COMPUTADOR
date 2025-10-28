@@ -407,14 +407,13 @@ Ao final, o sistema gera saídas organizadas para pesquisa e documentação cien
 | **Apoio à aprendizagem** | Interface autoexplicativa, com feedback visual e textual para guiar o usuário.                                                 |
 
 ## Metas de Usabilidade
-| **Meta**           | **Descrição e Indicador de Avaliação**                                                                     |
-| ------------------ | ---------------------------------------------------------------------------------------------------------- |
-| **Eficácia**       | O sistema deve detectar corretamente macacos-prego com taxa mínima de **90% de acerto**.                   |
-| **Eficiência**     | Reduzir o tempo de análise de vídeos em **70%** comparado à triagem manual.                                |
-| **Satisfação**     | Usuários devem avaliar positivamente a interface, atingindo **nota ≥ 4 em 5** no questionário SUS.         |
-| **Aprendizado**    | Usuário deve ser capaz de concluir uma análise completa na **primeira interação**, sem treinamento formal. |
-| **Memorabilidade** | Após 15 dias sem uso, o usuário deve conseguir repetir o processo sem erros.                               |
-| **Erros**          | A taxa de falhas operacionais deve ser **menor que 5%** do total de execuções.                             |
+| **Metas**                  | **Porcentagem** | **Justificativa**                                                                                                              |
+| -------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Facilidade de uso**      | **40%**         | A interface deve ser intuitiva e simples, permitindo que pesquisadores e voluntários operem o sistema sem treinamento técnico. |
+| **Precisão da detecção**   | **30%**         | A identificação automática dos macacos-prego deve ser confiável para evitar erros em relatórios científicos.                   |
+| **Tempo de processamento** | **20%**         | A análise deve ocorrer de forma rápida, reduzindo significativamente o tempo em relação à triagem manual.                      |
+| **Interface responsiva**   | **10%**         | A interface deve se adaptar bem a diferentes tamanhos de tela e manter o desempenho em equipamentos de campo.                  |
+
 
 
 
