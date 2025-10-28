@@ -450,6 +450,19 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 12. Em que pontos a interação entre usuários e sistema pode ser mais eficiente?
 13. Quem precisa ser notificado da conclusão das análises e da geração dos relatórios?
 
+### Design Centrado na Comunicação
+
+| **Tópico > Subtópico (diálogo)** | **Falas e Signos** |
+| -------------------------------- | ------------------ |
+| **Carregar vídeos**              | **U:** Quero carregar os vídeos das armadilhas fotográficas para análise. <br> **D:** Certo. Deseja selecionar os arquivos de uma pasta local ou de um dispositivo externo? <br> **U:** De uma pasta local. <br> **D:** Arquivos importados com sucesso. Foram encontrados 24 vídeos válidos.                                                       |
+| **Configurar análise**           | **U:** Quero ajustar a sensibilidade da detecção. <br> **D:** Qual nível de confiança deseja aplicar? (baixa, média ou alta) <br> **U:** Alta, para evitar falsos positivos. <br> **D:** Configuração salva. Detecção configurada para confiança ≥ 0.85.                                                                                            |
+| **Iniciar processamento**        | **U:** Pode começar a análise dos vídeos? <br> **D:** Claro. A análise será executada em modo offline. Deseja visualizar as detecções em tempo real? <br> **U:** Sim, quero acompanhar. <br> **D:** Iniciando... Exibindo quadros processados e detecções de macacos-prego destacadas.                                                              |
+| **Acompanhar resultados**        | **U:** Quantas detecções já foram feitas? <br> **D:** Até agora, 37 detecções em 12 vídeos. Confiabilidade média: 91%. <br> **U:** Algum vídeo apresentou problema? <br> **D:** Um vídeo foi ignorado por baixa iluminação. Deseja aplicar correção automática de brilho? <br> **U:** Sim. <br> **D:** Correção aplicada, vídeo reinserido na fila. |
+| **Gerar relatório**              | **U:** Quero gerar um relatório com as ocorrências detectadas. <br> **D:** Deseja incluir gráficos de horários e frequência? <br> **U:** Sim, inclua tudo. <br> **D:** Relatório gerado com sucesso. Arquivo salvo em formato PDF e CSV.                                                                                                            |
+| **Exportar dados**               | **U:** Preciso exportar os resultados para o banco de dados da pesquisa. <br> **D:** Selecione o formato desejado (CSV, JSON ou Excel). <br> **U:** CSV. <br> **D:** Exportação concluída. Os dados estão prontos para upload institucional.                                                                                                        |
+| **Encerrar sessão**              | **U:** Quero encerrar o programa. <br> **D:** Deseja salvar as configurações atuais como padrão para futuras análises? <br> **U:** Sim, salve como “Análise Alta Confiança”. <br> **D:** Perfil salvo e sessão encerrada com sucesso.                                                                                                               |
+
+
 ## Modelo de tarefas
 
 ## Design
