@@ -415,7 +415,39 @@ Ao final, o sistema gera saídas organizadas para pesquisa e documentação cien
 | **Interface responsiva**   | **10%**         | A interface deve se adaptar bem a diferentes tamanhos de tela e manter o desempenho em equipamentos de campo.                  |
 
 
+## Cenário de Interação
+### Cenário
 
+Cenário de problema: Detecção automatizada de macacos-prego (Sapajus spp.) em vídeos de armadilhas fotográficas para pesquisas de conservação da fauna.
+Atores: Mariana Alves (pesquisadora), Lucas Ferreira (analista ambiental), Camila Rodrigues (mestranda em Ecologia).
+
+Durante o processo de monitoramento da fauna em áreas de floresta nativa, pesquisadores e técnicos coletam centenas de vídeos por meio de armadilhas fotográficas [1]. Ao retornar ao laboratório, Mariana Alves, pesquisadora principal, inicia o sistema de detecção automatizada. Ela carrega as pastas com os vídeos e define os parâmetros de confiança do modelo [2]. O sistema começa o processamento, detectando a presença de macacos-prego em tempo real e exibindo caixas delimitadoras sobre cada detecção [3].
+
+Enquanto o sistema roda, Lucas Ferreira, analista de uma ONG parceira, utiliza sua versão offline em campo para processar vídeos recentes coletados por comunidades locais [4]. Ele acompanha as notificações de detecções e exporta relatórios compactos com coordenadas GPS e horários de ocorrência [5]. A versão offline permite que o trabalho continue mesmo sem acesso à internet, garantindo decisões rápidas em ações de conservação.
+
+No laboratório, Camila Rodrigues, mestranda em Ecologia, carrega os resultados processados e realiza análises comparativas. Ela ajusta a sensibilidade do modelo para refinar o reconhecimento e aplica filtros de tempo e local para extrair padrões de atividade [6]. O sistema gera automaticamente gráficos e tabelas com frequência de aparições, além de permitir exportação dos resultados para CSV e PDF [7].
+
+Durante o uso, o sistema detecta vídeos com iluminação insuficiente e emite alertas, sugerindo correção automática de brilho e contraste [8]. Também notifica os usuários sobre arquivos corrompidos ou vídeos duplicados [9]. Após o processamento, um relatório consolidado é gerado e enviado automaticamente a todos os colaboradores do projeto [10].
+
+A equipe revisa os resultados e valida manualmente amostras com baixa confiança. O sistema registra as revisões, atualiza os metadados e armazena o dataset final no servidor institucional [11]. Por fim, um aviso é enviado aos responsáveis por campo e laboratório, confirmando a conclusão da análise e a disponibilidade dos relatórios [12].
+
+Concluída a validação do dataset, o sistema envia uma notificação automática para Mariana e para todos os participantes envolvidos, confirmando que seus vídeos foram oficialmente incluídos no dataset final e que os resultados podem ser utilizados para análises e publicações [13].
+
+### Perguntas de cenário
+
+1. Quem pode/deve iniciar o processo de análise e cadastro dos vídeos no sistema?
+2. Quando e onde os vídeos são processados e armazenados (laboratório ou campo)?
+3. Quem fornece os dados de vídeo e metadados de localização ao sistema?
+4. Quais informações (frames, horários, coordenadas, nível de confiança) devem ser armazenadas nos resultados finais?
+5. Quantas análises podem ser executadas simultaneamente e em quais modos (local, offline ou em nuvem)?
+6. Quem pode supervisionar e validar os resultados das detecções?
+7. Que informações são necessárias para cadastrar uma nova coleta de vídeos no sistema?
+8. Como o sistema processa, exibe e atualiza as detecções durante a execução?
+9. De quem depende a aprovação e validação final dos resultados?
+10. Que alertas e feedbacks o sistema deve emitir para indicar problemas (iluminação, arquivos corrompidos, baixa confiança)?
+11. Como o sistema pode ajustar automaticamente parâmetros de detecção e qualidade de imagem?
+12. Em que pontos a interação entre usuários e sistema pode ser mais eficiente?
+13. Quem precisa ser notificado da conclusão das análises e da geração dos relatórios?
 
 ## Modelo de tarefas
 
