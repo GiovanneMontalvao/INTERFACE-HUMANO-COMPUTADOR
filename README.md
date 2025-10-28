@@ -419,7 +419,8 @@ Ao final, o sistema gera saídas organizadas para pesquisa e documentação cien
 ### Cenário
 
 Cenário de problema: Detecção automatizada de macacos-prego (Sapajus spp.) em vídeos de armadilhas fotográficas para pesquisas de conservação da fauna.
-Atores: Mariana Alves (pesquisadora), Lucas Ferreira (analista ambiental), Camila Rodrigues (mestranda em Ecologia).
+
+Atores: Mariana Alves (pesquisadora), Lucas Ferreira (analista ambiental), Camila Rodrigues (mestranda em Ecologia). 
 
 Durante o processo de monitoramento da fauna em áreas de floresta nativa, pesquisadores e técnicos coletam centenas de vídeos por meio de armadilhas fotográficas [1]. Ao retornar ao laboratório, Mariana Alves, pesquisadora principal, inicia o sistema de detecção automatizada. Ela carrega as pastas com os vídeos e define os parâmetros de confiança do modelo [2]. O sistema começa o processamento, detectando a presença de macacos-prego em tempo real e exibindo caixas delimitadoras sobre cada detecção [3].
 
