@@ -462,6 +462,46 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 | **Exportar dados**               | **U:** Preciso exportar os resultados para o banco de dados da pesquisa. <br> **D:** Selecione o formato desejado (CSV, JSON ou Excel). <br> **U:** CSV. <br> **D:** Exportação concluída. Os dados estão prontos para upload institucional.                                                                                                        |
 | **Encerrar sessão**              | **U:** Quero encerrar o programa. <br> **D:** Deseja salvar as configurações atuais como padrão para futuras análises? <br> **U:** Sim, salve como “Análise Alta Confiança”. <br> **D:** Perfil salvo e sessão encerrada com sucesso.                                                                                                               |
 
+### Esquema Conceitual de Signos
+
+### Esquema conceitual de signos: conteúdo
+
+**Analisar vídeos (A)** – funcionalidade de processamento e detecção de macacos-prego
+
+| signo | origem | observações |
+|--------|---------|--------------|
+| vídeos carregados | domínio | indica a quantidade de vídeos importados para análise; quanto mais vídeos, maior a robustez do dataset |
+| nível de confiança | domínio | representa o parâmetro de sensibilidade do modelo; valores altos reduzem falsos positivos |
+| detecções realizadas | domínio | indica o número de ocorrências de macacos-prego detectadas até o momento |
+| vídeos com problema | domínio | mostra vídeos com falhas, baixa iluminação ou corrompidos, sinalizando rupturas na comunicação |
+| correção aplicada | domínio | indica que ajustes automáticos (como brilho e contraste) foram realizados com sucesso |
+| relatório gerado | domínio | representa o fechamento do processo de análise e consolidação dos resultados |
+| exportação concluída | domínio | mostra que os dados foram enviados para o repositório institucional ou salvos em arquivo |
+| sessão encerrada | domínio | indica o término do processo e salvamento das configurações personalizadas |
+
+---
+
+**Gerar relatório (R)** – funcionalidade de síntese e exportação de resultados
+
+| signo | origem | observações |
+|--------|---------|--------------|
+| resumo de detecções | domínio | apresenta estatísticas consolidadas (número de detecções, confiabilidade média, vídeos processados) |
+| gráficos de atividade | domínio | representa visualmente padrões de ocorrência temporal e espacial dos macacos-prego |
+| exportar formato | domínio | permite escolher entre CSV, JSON ou PDF conforme a necessidade da pesquisa |
+| relatório final salvo | domínio | indica que o arquivo foi criado e armazenado com sucesso no sistema |
+
+---
+
+**Validar resultados (V)** – funcionalidade de revisão e confirmação de detecções
+
+| signo | origem | observações |
+|--------|---------|--------------|
+| amostras revisadas | domínio | representa a quantidade de vídeos analisados manualmente para validar o modelo |
+| baixa confiança | domínio | sinaliza detecções incertas que precisam de revisão humana |
+| metadados atualizados | domínio | indica que os dados corrigidos foram incorporados ao dataset final |
+| validação concluída | domínio | mostra que o processo foi encerrado e os resultados estão prontos para publicação |
+
+
 
 ## Modelo de tarefas
 
