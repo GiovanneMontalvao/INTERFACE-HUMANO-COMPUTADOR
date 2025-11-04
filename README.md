@@ -510,6 +510,8 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 | validação concluída | domínio | mostra que o processo foi encerrado e os resultados estão prontos para publicação |
 
 
+## Figma
+https://www.figma.com/design/t6HnJJuWUyzod4ITblthOS/A-equipe-de-Diego-Meira-team-library?node-id=0-1&t=qXpVP4uGKYHwsg0N-1
 
 ## Modelo de tarefas
 
