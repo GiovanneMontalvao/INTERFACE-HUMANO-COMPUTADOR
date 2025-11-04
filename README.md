@@ -462,9 +462,17 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 | **Exportar dados**               | **U:** Preciso exportar os resultados para o banco de dados da pesquisa. <br> **D:** Selecione o formato desejado (CSV, JSON ou Excel). <br> **U:** CSV. <br> **D:** Exportação concluída. Os dados estão prontos para upload institucional.                                                                                                        |
 | **Encerrar sessão**              | **U:** Quero encerrar o programa. <br> **D:** Deseja salvar as configurações atuais como padrão para futuras análises? <br> **U:** Sim, salve como “Análise Alta Confiança”. <br> **D:** Perfil salvo e sessão encerrada com sucesso.                                                                                                               |
 
-### Esquema Conceitual de Signos
+### Mapa de Objetivos
 
-### Esquema conceitual de signos: conteúdo
+| **Tipo de Objetivo**      | **Formulação**                                                                                                                                             |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Final**                 | Contribuir para a conservação da fauna e a pesquisa científica por meio da automação na detecção de macacos-prego em vídeos de armadilhas fotográficas.    |
+| **Instrumental**          | Automatizar o processo de análise de vídeos para reduzir o tempo de triagem e aumentar a precisão na identificação das espécies.                           |
+| **Instrumental Direto**   | Utilizar o sistema para carregar vídeos, processar as imagens, visualizar as detecções e gerar relatórios de ocorrência.                                   |
+| **Instrumental Indireto** | Oferecer uma interface intuitiva, funcionamento offline e compatibilidade com hardware de campo para facilitar o uso por pesquisadores, estudantes e ONGs. |
+
+
+### Esquema Conceitual de Signos
 
 **Analisar vídeos (A)** – funcionalidade de processamento e detecção de macacos-prego
 
