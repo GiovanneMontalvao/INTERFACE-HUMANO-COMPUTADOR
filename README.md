@@ -510,6 +510,15 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 | validação concluída | domínio | mostra que o processo foi encerrado e os resultados estão prontos para publicação |
 
 
+## Molic
+
+### Analisar Vídeos
+<img width="251" height="459" alt="image" src="https://github.com/user-attachments/assets/72ca0748-c9f5-4c6f-9fca-cabc0d543032" />
+
+### Visualizar Relatórios
+<img width="281" height="495" alt="image" src="https://github.com/user-attachments/assets/dbd670bc-f159-4a53-9ed8-7f0213a4f876" />
+
+
 ## Figma
 https://www.figma.com/design/t6HnJJuWUyzod4ITblthOS/A-equipe-de-Diego-Meira-team-library?node-id=0-1&t=qXpVP4uGKYHwsg0N-1
 
