@@ -531,6 +531,30 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 ### Tela de Relatórios
 <img width="1206" height="889" alt="image" src="https://github.com/user-attachments/assets/f0751873-8f1b-4ec4-a579-a2faec96ea53" />
 
+## Planejamento da Avaliação
+
+### Planejamento de Usabilidade
+
+| Etapa | Planejamento aplicado ao projeto de detecção de macacos-prego |
+|-------|----------------------------------------------------------------|
+| **D** | Avaliar a apropriação da tecnologia por pesquisadores e ONGs.<br>Verificar se a interface permite análise eficiente de vídeos em campo e laboratório. |
+| **E**| - Os usuários conseguiram carregar e analisar vídeos sem ajuda?<br>- A interface foi compreendida sem treinamento prévio?<br>- Os relatórios gerados foram úteis para tomada de decisão?<br>- O sistema funcionou bem em ambientes offline?<br>- Houve sugestões de melhoria ou dificuldades recorrentes? |
+| **C** | - Avaliação heurística (baseada em Nielsen)<br>- Testes com usuários reais (pesquisadores, analistas de ONG, mestrandos)<br>- Questionários pré e pós-teste<br>- Observação direta e coleta de métricas |
+| **I**| - Sessões presenciais e remotas com vídeos reais de armadilhas fotográficas<br>- Equipamentos com e sem GPU<br>- Participantes com diferentes níveis de familiaridade com IA e visão computacional |
+| **D**| - Garantir anonimato dos participantes<br>- Permitir pausas, saída livre e conforto durante a sessão<br>- Termo de consentimento assinado<br>- Nenhum dado sensível será armazenado |
+| **E** | - Consolidar problemas de usabilidade por frequência e gravidade<br>- Identificar heurísticas violadas<br>- Gerar recomendações de redesign<br>- Validar melhorias com nova rodada de testes |
+
+
+---
+
+### Lista de Instrumentos
+
+- Termo de consentimento  
+- Questionário pré e pós-teste  
+- Tabela de observação (tempo, erros, comentários)  
+- Formulário de avaliação heurística (10 heurísticas de Nielsen adaptadas ao contexto)  
+- Roteiro de tarefas com base nas personas (Mariana, Lucas, Camila, João Pedro)
+
 
 
 ## Modelo de tarefas
