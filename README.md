@@ -520,7 +520,18 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 
 
 ## Figma
-https://www.figma.com/design/t6HnJJuWUyzod4ITblthOS/A-equipe-de-Diego-Meira-team-library?node-id=0-1&t=qXpVP4uGKYHwsg0N-1
+
+### Tela inicial
+<img width="1204" height="826" alt="image" src="https://github.com/user-attachments/assets/b74a1175-bdde-4642-b7c8-e9c4518d489b" />
+
+### Tela de detecção
+<img width="1209" height="888" alt="image" src="https://github.com/user-attachments/assets/f33f598e-93fc-4050-ad91-49f263797bdd" />
+<img width="1208" height="890" alt="image" src="https://github.com/user-attachments/assets/4c080a93-44f4-467a-8d0f-7a201705deb2" />
+
+### Tela de Relatórios
+<img width="1206" height="889" alt="image" src="https://github.com/user-attachments/assets/f0751873-8f1b-4ec4-a579-a2faec96ea53" />
+
+
 
 ## Modelo de tarefas
 
