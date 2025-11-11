@@ -548,14 +548,66 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 ---
 
 ### Lista de Instrumentos
-
-- Termo de consentimento  
-- Questionário pré e pós-teste  
-- Tabela de observação (tempo, erros, comentários)  
-- Formulário de avaliação heurística (10 heurísticas de Nielsen adaptadas ao contexto)  
-- Roteiro de tarefas com base nas personas (Mariana, Lucas, Camila, João Pedro)
+   1) Termo de consentimento  
+   2) Questionários  
+   3) Tabela de Observação  
+   4) Formulário de avaliação Heuristica.
 
 
+## Avaliação de IHC através de inspeção HEURÍSTICA
+
+### Tabela 1 - Conjunto de heurísticas de Nielsen (1994)
+
+| Heurística | Violação | Tela | Severidade | Solução proposta |
+|---|---|---:|---:|---|
+| Visibilidade do status do sistema | Ausência de barra de progresso; mensagens de status inconsistentes | Tela de Detecção | 3 | Implementar barra de progresso percentual; mostrar etapa atual; estimar tempo restante |
+| Visibilidade do status do sistema | Upload não confirma com preview ou miniatura | Tela Inicial | 2 | Exibir miniatura e metadados; notificação modal de upload concluído |
+| Compatibilidade com o mundo real | Termos técnicos sem explicação (YOLOv8s; confidence threshold) | Tela de Detecção | 2 | Substituir por linguagem acessível; adicionar tooltip e glossário rápido |
+| Controle e liberdade para o usuário | Não existe botão Cancelar; não há undo/redo para rótulos | Tela de Detecção | 3 | Adicionar botão Cancelar; implementar undo/redo para anotações |
+| Consistência e padrões | Terminologia inconsistente: "Salvar", "Gravar", "Exportar" usados alternadamente | Tela Inicial; Tela de Relatórios | 2 | Unificar terminologia; padronizar ícones e rótulos |
+| Consistência e padrões | Ícones diferentes para ações equivalentes entre telas | Tela Inicial; Tela de Detecção | 2 | Padronizar conjunto de ícones e legendas em todo o sistema |
+| Prevenção de erros | Upload aceita formatos não suportados ou arquivos corrompidos sem validação | Tela Inicial | 4 | Validar formato e integridade no upload; recusar com mensagem clara e instruções |
+| Prevenção de erros | Export sobrescreve arquivo existente sem confirmação | Tela de Relatórios | 3 | Verificar existência de arquivo; pedir confirmação; oferecer renomear automático |
+| Reconhecimento em lugar de lembrança | Falta legenda e tooltips para bounding boxes, filtros e controles avançados | Tela de Detecção | 2 | Incluir legenda; tooltips; ajuda contextual inline |
+| Flexibilidade e eficiência de uso | Ausência de processamento em lote e atalhos para usuários avançados | Tela de Detecção | 2 | Implementar modo batch; adicionar atalhos de teclado e presets |
+| Projeto minimalista e estético | Tela de Relatórios com excesso de opções e texto sem hierarquia visual | Tela de Relatórios | 1 | Reorganizar em seções colapsáveis; reduzir texto; priorizar ações principais |
+| Auxiliar a reconhecer diagnosticar e recuperar erros | Mensagens de erro genéricas; exibição de stack trace técnico ao usuário | Tela Inicial; Tela de Detecção | 4 | Mostrar mensagem amigável com causa provável e passos de correção; registrar log técnico separado |
+| Ajuda e documentação | Ajuda limitada ao manual curto integrado; falta de tutoriais rápidos e exemplos | Todas as telas | 2 | Adicionar tutoriais rápidos; walkthrough inicial; documentação online com exemplos práticos |
+
+---
+
+### Tabela 2 - Grau de severidade dos problemas de usabilidade
+
+| Nível | Descrição |
+|---:|---|
+| 0 | Sem importância; não afeta operação |
+| 1 | Cosmético; baixa prioridade |
+| 2 | Simples; corrigível em baixa prioridade |
+| 3 | Grave; alta prioridade de correção |
+| 4 | Catastrófico; corrigir antes do lançamento |
+
+---
+
+#### Heurísticas não violadas — exemplos de boas práticas
+
+| Integrante | Heurística atendida | Exemplo (tela/elemento) |
+|---|---|---|
+| Giovanne Delghingaro M. | Compatibilidade com o mundo real | Metadados GPS e timestamp exibidos em formato familiar na visualização de frames |
+| Guilherme Henrique | Projeto minimalista e estético | Tela Inicial com ações principais destacadas e layout limpo |
+| Matheus Henrique | Reconhecimento em lugar de lembrança | Painel de histórico que mostra últimos parâmetros usados por análise |
+| Matheus Oliveira | Visibilidade do status do sistema | Contador de frames processados exibido durante preview em algumas operações |
+| Pedro Henrique | Ajuda e documentação | Botão Tutorial integrado que abre passo a passo inicial dentro do app |
+
+---
+
+#### Instruções para entrega
+
+- Incluir **apenas as violações** na seção de inspeção heurística; cada violação deve ter **um print** com o elemento destacado.  
+- Usar tabela com colunas: **Heurística | Erro | Local | Gravidade | Solução proposta | Referência do print**.  
+- Nomear prints como `Print 1 - Tela Inicial - Violação A`, `Print 2 - Tela de Detecção - Violação B`, etc., e anexá-los ao relatório.  
+- Para cada violação incluir justificativa curta (1 linha) e exemplo de fluxo afetado (1 linha).  
+- Consolidar problemas por severidade (4→0) e por frequência; gerar plano de ação com responsáveis e prazos.  
+- Entregar relatório em Markdown ou PDF com tabelas, prints e plano de ação; agendar reavaliação após correções.
 
 ## Modelo de tarefas
 
