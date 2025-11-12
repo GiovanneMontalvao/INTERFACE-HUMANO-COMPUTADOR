@@ -645,6 +645,13 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 <img width="855" height="598" alt="image" src="https://github.com/user-attachments/assets/978504e2-6ea7-4188-82f4-d9d42368dfb8" />
 <img width="855" height="720" alt="image" src="https://github.com/user-attachments/assets/25ddbffd-2613-4d0c-b088-95a8371365f8" />
 
+### Conclusão da avaliação por observação do usuário:
+
+#### Usuário 1
+- Completou a maioria das tarefas sem grandes problemas. Encontrou alguns incômodos, como a imagem nem sempre aparecer logo após o envio, ausência de aviso claro durante o processamento e demora na atualização da lista de resultados. Isso não impediu a conclusão, mas deixou a experiência menos confiável e mais lenta.
+
+#### Usuário 2
+- Teve mais dificuldade. Não entendeu bem os números que indicam a confiança do sistema, as miniaturas do histórico eram pequenas e faltaram mensagens claras enquanto o sistema trabalhava. Esses pontos a impediram de completar tarefas importantes e reduziram a utilidade para triagem de imagens de campo.
 
 ## Modelo de tarefas
 
