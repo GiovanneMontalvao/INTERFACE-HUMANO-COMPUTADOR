@@ -594,26 +594,6 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 
 ---
 
-#### Heurísticas não violadas — exemplos de boas práticas
-
-| Integrante | Heurística atendida | Exemplo (tela/elemento) |
-|---|---|---|
-| Giovanne Delghingaro M. | Compatibilidade com o mundo real | Metadados GPS e timestamp exibidos em formato familiar na visualização de frames |
-| Guilherme Henrique | Projeto minimalista e estético | Tela Inicial com ações principais destacadas e layout limpo |
-| Matheus Henrique | Reconhecimento em lugar de lembrança | Painel de histórico que mostra últimos parâmetros usados por análise |
-| Matheus Oliveira | Visibilidade do status do sistema | Contador de frames processados exibido durante preview em algumas operações |
-| Pedro Henrique | Ajuda e documentação | Botão Tutorial integrado que abre passo a passo inicial dentro do app |
-
----
-
-#### Instruções para entrega
-
-- Incluir **apenas as violações** na seção de inspeção heurística; cada violação deve ter **um print** com o elemento destacado.  
-- Usar tabela com colunas: **Heurística | Erro | Local | Gravidade | Solução proposta | Referência do print**.  
-- Nomear prints como `Print 1 - Tela Inicial - Violação A`, `Print 2 - Tela de Detecção - Violação B`, etc., e anexá-los ao relatório.  
-- Para cada violação incluir justificativa curta (1 linha) e exemplo de fluxo afetado (1 linha).  
-- Consolidar problemas por severidade (4→0) e por frequência; gerar plano de ação com responsáveis e prazos.  
-- Entregar relatório em Markdown ou PDF com tabelas, prints e plano de ação; agendar reavaliação após correções.
 
 ## Modelo de tarefas
 
