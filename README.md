@@ -638,6 +638,14 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 | Tarefa 6: Visualizar animal detectado | Falha | 1 | Link de visualização não óbvio | 60s | 2/5 |
 | Tarefa 7: Voltar à tela inicial e fechar o sistema | Sucesso Parcial | 1 | Menu confuso para retornar | 25s | 3/5 |
 
+### Respostas do Formulário do Usuário:
+<img width="855" height="593" alt="image" src="https://github.com/user-attachments/assets/6419bf96-88e0-4064-81cd-19b624e094b4" />
+<img width="855" height="721" alt="image" src="https://github.com/user-attachments/assets/b39c34ca-fc23-4042-847a-27330f47f3ed" />
+<img width="855" height="591" alt="image" src="https://github.com/user-attachments/assets/ff7b577f-1a6a-4e85-8114-dae5fcf3f7c8" />
+<img width="855" height="598" alt="image" src="https://github.com/user-attachments/assets/978504e2-6ea7-4188-82f4-d9d42368dfb8" />
+<img width="855" height="720" alt="image" src="https://github.com/user-attachments/assets/25ddbffd-2613-4d0c-b088-95a8371365f8" />
+
+
 ## Modelo de tarefas
 
 ## Design
