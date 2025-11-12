@@ -653,23 +653,6 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 #### Usuário 2
 - Teve mais dificuldade. Não entendeu bem os números que indicam a confiança do sistema, as miniaturas do histórico eram pequenas e faltaram mensagens claras enquanto o sistema trabalhava. Esses pontos a impediram de completar tarefas importantes e reduziram a utilidade para triagem de imagens de campo.
 
-## Modelo de tarefas
-
-## Design
-
-- Pense nas características de Affordances do seu serviço ou poduto. 
-    - Que tipo de acessibilidades devem ser consideradas dentro do seu projeto?
-- Discuta o papel das expectativas do usuário no projeto deste serviço ou poduto. Qual a importância e pontos a serem considerados se você quiser vender esse serviço ou poduto?
-
-### Prototipação em baixo nível (papel)
-#### Avaliação heurística
-
-### Prtotipação em médio nível (Figma)
-#### Avaliação heurística
-
-### Prtotipação em alto nível (React)
-#### Avaliação heurística
-
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 
 <!-- TODOs:
