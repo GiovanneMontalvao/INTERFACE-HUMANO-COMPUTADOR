@@ -618,25 +618,25 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 
 | Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
 |---|---:|---:|---|---:|---|
-| Tarefa 1: Carregar uma imagem no sistema | Sucesso Total | 0 | — | 18s | 5/5 |
-| Tarefa 2: Selecionar uma imagem do histórico | Sucesso Total | 0 | — | 10s | 5/5 |
-| Tarefa 3: Interpretar os resultados exibidos | Sucesso Parcial | 1 | Interpretação (score confuso) | 35s | 4/5 |
-| Tarefa 4: Clicar em Iniciar Detecção e verificar atualização | Sucesso Parcial | 1 | Feedback ausente durante processamento | 50s | 3/5 |
-| Tarefa 5: Gerar relatório e confirmar na tabela | Sucesso Parcial | 1 | Sistema (atraso na listagem) | 65s | 3/5 |
-| Tarefa 6: Visualizar animal detectado | Sucesso Total | 0 | — | 22s | 5/5 |
-| Tarefa 7: Voltar à tela inicial e fechar o sistema | Sucesso Total | 0 | — | 8s | 5/5 |
+| Tarefa 1: Carregar uma imagem no sistema | Sucesso Total | 0 | — | 18s | Sem Confusão |
+| Tarefa 2: Selecionar uma imagem do histórico | Sucesso Total | 0 | — | 10s | Sem Confusão |
+| Tarefa 3: Interpretar os resultados exibidos | Sucesso Parcial | 1 | Interpretação (score confuso) | 35s | Confusão Leve |
+| Tarefa 4: Clicar em Iniciar Detecção e verificar atualização | Sucesso Parcial | 1 | Feedback ausente durante processamento | 50s | Confusão Moderada |
+| Tarefa 5: Gerar relatório e confirmar na tabela | Sucesso Parcial | 1 | Sistema (atraso na listagem) | 65s | Confusão Moderada |
+| Tarefa 6: Visualizar animal detectado | Sucesso Total | 0 | — | 22s | Sem Confusão |
+| Tarefa 7: Voltar à tela inicial e fechar o sistema | Sucesso Total | 0 | — | 8s | Sem Confusão |
 
 ### Avaliação de cada Tarefa — Usuário 2
 
 | Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
 |---|---:|---:|---|---:|---|
-| Tarefa 1: Carregar uma imagem no sistema | Sucesso Parcial | 1 | Upload não exibiu preview imediatamente | 40s | 3/5 |
-| Tarefa 2: Selecionar uma imagem do histórico | Sucesso Parcial | 1 | Navegação (miniaturas pequenas) | 30s | 3/5 |
-| Tarefa 3: Interpretar os resultados exibidos | Falha | 2 | Interpretação; termos técnicos sem explicação | 75s | 2/5 |
-| Tarefa 4: Clicar em Iniciar Detecção e verificar atualização | Falha | 2 | Sem feedback; usuário não soube se processo rodou | 120s | 1/5 |
-| Tarefa 5: Gerar relatório e confirmar na tabela | Falha | 2 | Não encontrou botão; relatório não apareceu | 90s | 1/5 |
-| Tarefa 6: Visualizar animal detectado | Falha | 1 | Link de visualização não óbvio | 60s | 2/5 |
-| Tarefa 7: Voltar à tela inicial e fechar o sistema | Sucesso Parcial | 1 | Menu confuso para retornar | 25s | 3/5 |
+| Tarefa 1: Carregar uma imagem no sistema | Sucesso Parcial | 1 | Upload não exibiu preview imediatamente | 40s | Confusão Moderada |
+| Tarefa 2: Selecionar uma imagem do histórico | Sucesso Parcial | 1 | Navegação (miniaturas pequenas) | 30s | Confusão Moderada |
+| Tarefa 3: Interpretar os resultados exibidos | Falha | 2 | Interpretação; termos técnicos sem explicação | 75s | Confusão Alta |
+| Tarefa 4: Clicar em Iniciar Detecção e verificar atualização | Falha | 2 | Sem feedback; usuário não soube se processo rodou | 120s | Frustração Alta |
+| Tarefa 5: Gerar relatório e confirmar na tabela | Falha | 2 | Não encontrou botão; relatório não apareceu | 90s | Frustração Alta |
+| Tarefa 6: Visualizar animal detectado | Falha | 1 | Link de visualização não óbvio | 60s | Confusão Alta |
+| Tarefa 7: Voltar à tela inicial e fechar o sistema | Sucesso Parcial | 1 | Menu confuso para retornar | 25s | Confusão Moderada |
 
 ### Respostas do Formulário do Usuário:
 <img width="855" height="593" alt="image" src="https://github.com/user-attachments/assets/6419bf96-88e0-4064-81cd-19b624e094b4" />
