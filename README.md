@@ -558,21 +558,27 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 
 ### Tabela 1 - Conjunto de heurísticas de Nielsen (1994)
 
-| Heurística | Violação | Tela | Severidade | Solução proposta |
-|---|---|---:|---:|---|
-| Visibilidade do status do sistema | Ausência de barra de progresso; mensagens de status inconsistentes | Tela de Detecção | 3 | Implementar barra de progresso percentual; mostrar etapa atual; estimar tempo restante |
-| Visibilidade do status do sistema | Upload não confirma com preview ou miniatura | Tela Inicial | 2 | Exibir miniatura e metadados; notificação modal de upload concluído |
-| Compatibilidade com o mundo real | Termos técnicos sem explicação (YOLOv8s; confidence threshold) | Tela de Detecção | 2 | Substituir por linguagem acessível; adicionar tooltip e glossário rápido |
-| Controle e liberdade para o usuário | Não existe botão Cancelar; não há undo/redo para rótulos | Tela de Detecção | 3 | Adicionar botão Cancelar; implementar undo/redo para anotações |
-| Consistência e padrões | Terminologia inconsistente: "Salvar", "Gravar", "Exportar" usados alternadamente | Tela Inicial; Tela de Relatórios | 2 | Unificar terminologia; padronizar ícones e rótulos |
-| Consistência e padrões | Ícones diferentes para ações equivalentes entre telas | Tela Inicial; Tela de Detecção | 2 | Padronizar conjunto de ícones e legendas em todo o sistema |
-| Prevenção de erros | Upload aceita formatos não suportados ou arquivos corrompidos sem validação | Tela Inicial | 4 | Validar formato e integridade no upload; recusar com mensagem clara e instruções |
-| Prevenção de erros | Export sobrescreve arquivo existente sem confirmação | Tela de Relatórios | 3 | Verificar existência de arquivo; pedir confirmação; oferecer renomear automático |
-| Reconhecimento em lugar de lembrança | Falta legenda e tooltips para bounding boxes, filtros e controles avançados | Tela de Detecção | 2 | Incluir legenda; tooltips; ajuda contextual inline |
-| Flexibilidade e eficiência de uso | Ausência de processamento em lote e atalhos para usuários avançados | Tela de Detecção | 2 | Implementar modo batch; adicionar atalhos de teclado e presets |
-| Projeto minimalista e estético | Tela de Relatórios com excesso de opções e texto sem hierarquia visual | Tela de Relatórios | 1 | Reorganizar em seções colapsáveis; reduzir texto; priorizar ações principais |
-| Auxiliar a reconhecer diagnosticar e recuperar erros | Mensagens de erro genéricas; exibição de stack trace técnico ao usuário | Tela Inicial; Tela de Detecção | 4 | Mostrar mensagem amigável com causa provável e passos de correção; registrar log técnico separado |
-| Ajuda e documentação | Ajuda limitada ao manual curto integrado; falta de tutoriais rápidos e exemplos | Todas as telas | 2 | Adicionar tutoriais rápidos; walkthrough inicial; documentação online com exemplos práticos |
+| 1. | Visibilidade do status do sistema: |
+| :---- | :---- |
+| O sistema deve sempre manter os usuários informados sobre o que está acontecendo através de feedback apropriado, em um tempo razoável. | **3** - Ausência de barra de progresso durante processamento. |
+| 2. | Compatibilidade entre sistema e mundo real: |
+| O sistema deve utilizar a linguagem do usuário, com palavras, frases e conceitos familiares para ele, ao invés de termos específicos de sistemas. Seguir convenções do mundo real, fazendo com que a informação apareça em uma ordem lógica e natural. | **2** - Termos técnicos (ex.: "YOLOv8s", "confidence threshold") exibidos sem explicação ou glossário. |
+| 3. | Controle e liberdade para o usuário: |
+| Estão relacionados à situação em que os usuários frequentemente escolhem as funções do sistema por engano e então necessitam de "uma saída de emergência” claramente definida para sair do estado não desejado sem ter que percorrer um longo diálogo, ou seja, é necessário suporte a *undo* e *redo*. | **3** - Ausência de botão "Cancelar" para interromper análise em andamento. |
+| 4. | Consistência e padrões: |
+| Referem-se ao fato de que os usuários não deveriam ter acesso a diferentes situações, palavras ou ações representando a mesma coisa. A interface deve ter convenções não-ambíguas. | **2** - Terminologia inconsistente ("Salvar", "Gravar", "Exportar") usada alternadamente. |
+| 5. | Prevenção de erros: |
+| Os erros são as principais fontes de frustração, ineficiência e ineficácia durante a utilização do sistema. | **4** - Upload aceita formatos não suportados ou arquivos corrompidos sem validação. |
+| 6. | Reconhecimento em lugar de lembrança: |
+| Tornar objetos, ações, opções visíveis e coerentes. O usuário não deve ter que lembrar informações de uma parte do diálogo para outra. Instruções para o uso do sistema devem estar visíveis ou facilmente acessíveis. | **2** - Falta de legendas e tooltips para bounding boxes, filtros e controles avançados. |
+| 7. | Flexibilidade e eficiência de uso: |
+| A ineficiência nas tarefas pode reduzir a eficácia do usuário e causar-lhes frustração. O sistema deve ser adequado tanto para usuários inexperientes quanto para usuários experientes. | **2** - Ausência de processamento em lote, presets e atalhos de teclado para usuários avançados. |
+| 8. | Projeto minimalista e estético: |
+| Os diálogos não devem conter informações irrelevantes ou raramente necessárias. Cada unidade extra de informação em um diálogo compete com unidades relevantes e diminui sua visibilidade relativa. | **1** - Tela de Relatórios com excesso de opções e texto sem hierarquia visual clara. |
+| 9. | Auxiliar os usuários a reconhecer, diagnosticar e recuperar erros: |
+| Mensagens de erro devem ser expressas em linguagem natural (sem códigos), indicando precisamente o erro e sugerindo uma solução. | **4** - Mensagens de erro genéricas sem orientação. |
+| 10. | Ajuda e documentação: |
+| Mesmo que seja melhor que o sistema possa ser usado sem documentação, pode ser necessário fornecer ajuda e documentação. Tais informações devem ser fáceis de encontrar, ser centradas na tarefa do usuário, listar passos concretos a serem seguidos e não ser muito grandes. A ajuda deve estar facilmente acessível e on-line. | **2** - Ajuda limitada ao manual curto integrado; falta de tutoriais rápidos, walkthroughs e exemplos contextuais.
 
 ---
 
