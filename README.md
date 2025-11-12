@@ -594,6 +594,49 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 
 ---
 
+| Heurística atendida | Exemplo (tela/elemento) | Justificativa |
+|---|---:|---|
+| Compatibilidade com o mundo real | Tela de Detecção; metadados do vídeo (timestamp; GPS; nome do arquivo) visíveis | Usa termos e informações familiares aos pesquisadores; mapeia dados do mundo real para a interface |
+| Reconhecimento em lugar de lembrança | Tela Inicial; painel "Histórico de Análises" com últimos thresholds e presets visíveis | Permite reutilizar parâmetros sem memorizar; reduz carga cognitiva e acelera tarefas recorrentes |
+
+
+## Método de Avaliação de Usabilidade baseado em Observação do Usuário
+
+### Lista de tarefas que o usuário deve cumprir
+- Tarefa 1: Carregar uma imagem no sistema (botão ou drag-and-drop)
+- Tarefa 2: Selecionar uma imagem do histórico para visualizar resultados
+- Tarefa 3: Interpretar os resultados exibidos (detecção e score)
+- Tarefa 4: Clicar em Iniciar Detecção e verificar atualização dos resultados
+- Tarefa 5: Gerar relatório da detecção e confirmar entrada na tabela de relatórios
+- Tarefa 6: Clicar em Visualizar para abrir a imagem do animal detectado.
+- Tarefa 7: Voltar à tela inicial e fechar o sistema corretamente
+
+
+### Formulário de perfil do usuário
+
+### Avaliação de cada Tarefa — Usuário 1
+
+| Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
+|---|---:|---:|---|---:|---|
+| Tarefa 1: Carregar uma imagem no sistema | Sucesso Total | 0 | — | 18s | 5/5 |
+| Tarefa 2: Selecionar uma imagem do histórico | Sucesso Total | 0 | — | 10s | 5/5 |
+| Tarefa 3: Interpretar os resultados exibidos | Sucesso Parcial | 1 | Interpretação (score confuso) | 35s | 4/5 |
+| Tarefa 4: Clicar em Iniciar Detecção e verificar atualização | Sucesso Parcial | 1 | Feedback ausente durante processamento | 50s | 3/5 |
+| Tarefa 5: Gerar relatório e confirmar na tabela | Sucesso Parcial | 1 | Sistema (atraso na listagem) | 65s | 3/5 |
+| Tarefa 6: Visualizar animal detectado | Sucesso Total | 0 | — | 22s | 5/5 |
+| Tarefa 7: Voltar à tela inicial e fechar o sistema | Sucesso Total | 0 | — | 8s | 5/5 |
+
+### Avaliação de cada Tarefa — Usuário 2
+
+| Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
+|---|---:|---:|---|---:|---|
+| Tarefa 1: Carregar uma imagem no sistema | Sucesso Parcial | 1 | Upload não exibiu preview imediatamente | 40s | 3/5 |
+| Tarefa 2: Selecionar uma imagem do histórico | Sucesso Parcial | 1 | Navegação (miniaturas pequenas) | 30s | 3/5 |
+| Tarefa 3: Interpretar os resultados exibidos | Falha | 2 | Interpretação; termos técnicos sem explicação | 75s | 2/5 |
+| Tarefa 4: Clicar em Iniciar Detecção e verificar atualização | Falha | 2 | Sem feedback; usuário não soube se processo rodou | 120s | 1/5 |
+| Tarefa 5: Gerar relatório e confirmar na tabela | Falha | 2 | Não encontrou botão; relatório não apareceu | 90s | 1/5 |
+| Tarefa 6: Visualizar animal detectado | Falha | 1 | Link de visualização não óbvio | 60s | 2/5 |
+| Tarefa 7: Voltar à tela inicial e fechar o sistema | Sucesso Parcial | 1 | Menu confuso para retornar | 25s | 3/5 |
 
 ## Modelo de tarefas
 
