@@ -513,7 +513,8 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 ## Molic
 
 ### Sistema total
-<img width="589" height="806" alt="image" src="https://github.com/user-attachments/assets/da7aaa6e-5a4e-4e9e-a2c6-64904a61b1f4" />
+<img width="462" height="646" alt="image" src="https://github.com/user-attachments/assets/c57a8876-bc32-466d-9f05-1ccf06d68ceb" />
+
 
 ## Figma
 
