@@ -603,10 +603,9 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 - Tarefa 1: Carregar uma imagem no sistema (botão ou drag-and-drop)
 - Tarefa 2: Selecionar uma imagem do histórico para visualizar resultados
 - Tarefa 3: Interpretar os resultados exibidos (detecção e score)
-- Tarefa 4: Clicar em Iniciar Detecção e verificar atualização dos resultados
-- Tarefa 5: Gerar relatório da detecção e confirmar entrada na tabela de relatórios
-- Tarefa 6: Clicar em Visualizar para abrir a imagem do animal detectado.
-- Tarefa 7: Voltar à tela inicial e fechar o sistema corretamente
+- Tarefa 4: Gerar relatório da detecção e confirmar entrada na tabela de relatórios
+- Tarefa 5: Clicar em Visualizar para abrir a imagem do animal detectado.
+- Tarefa 6: Voltar à tela inicial e fechar o sistema corretamente
 
 
 ### Formulário de perfil do usuário
@@ -615,25 +614,23 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 
 | Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
 |---|---:|---:|---|---:|---|
-| Tarefa 1: Carregar uma imagem no sistema | Sucesso Total | 0 | — | 18s | Sem Confusão |
-| Tarefa 2: Selecionar uma imagem do histórico | Sucesso Total | 0 | — | 10s | Sem Confusão |
+| Tarefa 1: Carregar uma imagem no sistema | Sucesso | 0 | — | 18s | Sem Confusão |
+| Tarefa 2: Selecionar uma imagem do histórico | Sucesso | 0 | — | 10s | Sem Confusão |
 | Tarefa 3: Interpretar os resultados exibidos | Sucesso Parcial | 1 | Interpretação (score confuso) | 35s | Confusão Leve |
-| Tarefa 4: Clicar em Iniciar Detecção e verificar atualização | Sucesso Parcial | 1 | Feedback ausente durante processamento | 50s | Confusão Moderada |
-| Tarefa 5: Gerar relatório e confirmar na tabela | Sucesso Parcial | 1 | Sistema (atraso na listagem) | 65s | Confusão Moderada |
-| Tarefa 6: Visualizar animal detectado | Sucesso Total | 0 | — | 22s | Sem Confusão |
-| Tarefa 7: Voltar à tela inicial e fechar o sistema | Sucesso Total | 0 | — | 8s | Sem Confusão |
+| Tarefa 4: Gerar relatório e confirmar na tabela | Sucesso Parcial | 1 | Sistema (atraso na listagem) | 65s | Confusão Moderada |
+| Tarefa 5: Visualizar animal detectado | Sucesso Total | 0 | — | 22s | Sem Confusão |
+| Tarefa 6: Voltar à tela inicial e fechar o sistema | Sucesso | 0 | — | 8s | Sem Confusão |
 
 ### Avaliação de cada Tarefa — Usuário 2
 
 | Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
 |---|---:|---:|---|---:|---|
-| Tarefa 1: Carregar uma imagem no sistema | Sucesso Parcial | 1 | Upload não exibiu preview imediatamente | 40s | Confusão Moderada |
-| Tarefa 2: Selecionar uma imagem do histórico | Sucesso Parcial | 1 | Navegação (miniaturas pequenas) | 30s | Confusão Moderada |
-| Tarefa 3: Interpretar os resultados exibidos | Falha | 2 | Interpretação; termos técnicos sem explicação | 75s | Confusão Alta |
-| Tarefa 4: Clicar em Iniciar Detecção e verificar atualização | Falha | 2 | Sem feedback; usuário não soube se processo rodou | 120s | Frustração Alta |
-| Tarefa 5: Gerar relatório e confirmar na tabela | Falha | 2 | Não encontrou botão; relatório não apareceu | 90s | Frustração Alta |
-| Tarefa 6: Visualizar animal detectado | Falha | 1 | Link de visualização não óbvio | 60s | Confusão Alta |
-| Tarefa 7: Voltar à tela inicial e fechar o sistema | Sucesso Parcial | 1 | Menu confuso para retornar | 25s | Confusão Moderada |
+| Tarefa 1: Carregar uma imagem no sistema | Sucesso | 0 | - | 12s | Sem Confusão |
+| Tarefa 2: Selecionar uma imagem do histórico | Sucesso | 0 | - | 20s | Sem Confusão |
+| Tarefa 3: Interpretar os resultados exibidos | Sucesso Parcial | 1 | Dificuldade para entender o score | 35s | Confusão Moderada |
+| Tarefa 4: Gerar relatório e confirmar na tabela | Sucesso | 0 | - | 26s | Sem Confusão |
+| Tarefa 5: Visualizar animal detectado | Sucesso Parcial | 1 | Demorou pra achar opção de abrir imagem | 60s | Confusão Moderada |
+| Tarefa 6: Voltar à tela inicial e fechar o sistema | Sucesso | 0 | - | 7s | Sem Confusão |
 
 ### Respostas do Formulário do Usuário:
 <img width="855" height="593" alt="image" src="https://github.com/user-attachments/assets/6419bf96-88e0-4064-81cd-19b624e094b4" />
@@ -645,10 +642,10 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 ### Conclusão da avaliação por observação do usuário:
 
 #### Usuário 1
-- Completou a maioria das tarefas sem grandes problemas. Encontrou alguns incômodos, como a imagem nem sempre aparecer logo após o envio, ausência de aviso claro durante o processamento e demora na atualização da lista de resultados. Isso não impediu a conclusão, mas deixou a experiência menos confiável e mais lenta.
+- O Usuário 1 completou as tarefas com facilidade geral, sem cometer erros nas operações básicas como carregar e selecionar imagens. As principais dificuldades apareceram na interpretação dos resultados e na geração do relatório, indicando necessidade de melhorar clareza do score e velocidade de atualização da tabela. Apesar disso, o usuário manteve boa fluidez no uso e finalizou o teste sem frustrações graves
 
 #### Usuário 2
-- Teve mais dificuldade. Não entendeu bem os números que indicam a confiança do sistema, as miniaturas do histórico eram pequenas e faltaram mensagens claras enquanto o sistema trabalhava. Esses pontos a impediram de completar tarefas importantes e reduziram a utilidade para triagem de imagens de campo.
+- O Usuário 2 também apresentou bom desempenho nas tarefas iniciais, sem erros no carregamento e navegação. As dificuldades surgiram ao interpretar o score e ao localizar a opção de visualização do animal, sugerindo ajustes na organização e legibilidade da interface. Mesmo com pequenos momentos de confusão, o usuário concluiu todas as tarefas de forma eficiente e sem impactos significativos na experiência geral.
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 
