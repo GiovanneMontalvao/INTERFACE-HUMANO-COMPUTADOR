@@ -528,6 +528,8 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 ### Tela de Relatórios
 <img width="1206" height="889" alt="image" src="https://github.com/user-attachments/assets/f0751873-8f1b-4ec4-a579-a2faec96ea53" />
 
+Link para figma: https://nature-test-20815091.figma.site
+
 ## Planejamento da Avaliação
 
 ### Planejamento de Usabilidade
@@ -639,6 +641,7 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 <img width="872" height="609" alt="image" src="https://github.com/user-attachments/assets/00efba76-5584-47c6-9ff0-244d3ef8e983" />
 <img width="872" height="609" alt="image" src="https://github.com/user-attachments/assets/829a084a-cdc3-495a-b280-f6f5cc24307e" />
 
+link formulário de perfil do usuário: https://docs.google.com/forms/d/e/1FAIpQLSeNqyt9lilt6cuRkE3XJqHwanvdbf3qAVMo4S2aGWFCzcRxCQ/viewform?usp=header
 
 ### Conclusão da avaliação por observação do usuário:
 
