@@ -633,11 +633,12 @@ Concluída a validação do dataset, o sistema envia uma notificação automáti
 | Tarefa 6: Voltar à tela inicial e fechar o sistema | Sucesso | 0 | - | 7s | Sem Confusão |
 
 ### Respostas do Formulário do Usuário:
-<img width="855" height="593" alt="image" src="https://github.com/user-attachments/assets/6419bf96-88e0-4064-81cd-19b624e094b4" />
-<img width="855" height="721" alt="image" src="https://github.com/user-attachments/assets/b39c34ca-fc23-4042-847a-27330f47f3ed" />
-<img width="855" height="591" alt="image" src="https://github.com/user-attachments/assets/ff7b577f-1a6a-4e85-8114-dae5fcf3f7c8" />
-<img width="855" height="598" alt="image" src="https://github.com/user-attachments/assets/978504e2-6ea7-4188-82f4-d9d42368dfb8" />
-<img width="855" height="720" alt="image" src="https://github.com/user-attachments/assets/25ddbffd-2613-4d0c-b088-95a8371365f8" />
+<img width="872" height="609" alt="image" src="https://github.com/user-attachments/assets/1973c750-68ea-4fe3-8192-9bbb27661ea3" />
+<img width="872" height="609" alt="image" src="https://github.com/user-attachments/assets/2d7c90c7-fc83-419f-9a5a-7e07dd7545da" />
+<img width="872" height="609" alt="image" src="https://github.com/user-attachments/assets/d6a71853-d6e9-447b-bb32-52620ec058c2" />
+<img width="872" height="609" alt="image" src="https://github.com/user-attachments/assets/00efba76-5584-47c6-9ff0-244d3ef8e983" />
+<img width="872" height="609" alt="image" src="https://github.com/user-attachments/assets/829a084a-cdc3-495a-b280-f6f5cc24307e" />
+
 
 ### Conclusão da avaliação por observação do usuário:
 
